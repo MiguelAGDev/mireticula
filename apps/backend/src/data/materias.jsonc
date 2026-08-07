@@ -1,3 +1,9 @@
+// Author: MiguelAGDev
+// Date: 2026-08-06
+// Description: Generado automáticamente por packages/importer. No editar a mano.
+//
+// Last Update: 2026-08-06
+// Description: Regenerado desde dataset_mireticula.xlsx.
 // materias.json — catálogo de materias de la oferta académica importada.
 // IMPORTANTE: `creditos` y `semestre` NO vienen en dataset_mireticula.xlsx,
 // quedan en null. Deben completarse manualmente cruzando contra la

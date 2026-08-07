@@ -1,3 +1,9 @@
+// Author: MiguelAGDev
+// Date: 2026-08-06
+// Description: Generado automáticamente por packages/importer. No editar a mano.
+//
+// Last Update: 2026-08-06
+// Description: Regenerado desde dataset_mireticula.xlsx.
 // prerrequisitos.json — requisitos por materia. Solo incluye materias que
 // tienen al menos un requisito. `requisitos[].tipo` distingue:
 //   - "prerrequisito": materia que debe estar aprobada (columna Requisitos).

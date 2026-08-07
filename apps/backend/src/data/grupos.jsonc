@@ -1,3 +1,9 @@
+// Author: MiguelAGDev
+// Date: 2026-08-06
+// Description: Generado automáticamente por packages/importer. No editar a mano.
+//
+// Last Update: 2026-08-06
+// Description: Regenerado desde dataset_mireticula.xlsx.
 // grupos.json — oferta académica: un elemento por grupo de una materia,
 // con sus sesiones semanales (día, hora inicio/fin, aula) y el % de
 // créditos del plan necesario para inscribirlo (porcentajeCreditosNecesario, 0 = no aplica).
