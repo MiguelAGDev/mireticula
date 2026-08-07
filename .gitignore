@@ -144,7 +144,8 @@ vite.config.ts.timestamp-*
 
 
 # Data set
-.xlsx
+*.xlsx
 
 # Context
 CLAUDE.md
+
