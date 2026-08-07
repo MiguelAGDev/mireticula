@@ -1,0 +1,4954 @@
+// grupos.json — oferta académica: un elemento por grupo de una materia,
+// con sus sesiones semanales (día, hora inicio/fin, aula) y el % de
+// créditos del plan necesario para inscribirlo (porcentajeCreditosNecesario, 0 = no aplica).
+[
+  {
+    "materiaClave": "C16", // ADMINISTRACION DE BASE DE DATOS
+    "grupo": "A",
+    "profesorId": "zapata-davila-jose-luis", // ZAPATA DAVILA JOSE LUIS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "C16", // ADMINISTRACION DE BASE DE DATOS
+    "grupo": "B",
+    "profesorId": "rodriguez-ulloa-juan-carlos", // RODRIGUEZ ULLOA JUAN CARLOS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "E18", // ADMINISTRACION DE REDES
+    "grupo": "A",
+    "profesorId": "de-avila-sanchez-ricardo", // DE AVILA SANCHEZ RICARDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "E18", // ADMINISTRACION DE REDES
+    "grupo": "B",
+    "profesorId": "morales-lopez-jesus-enrique", // MORALES LOPEZ JESUS ENRIQUE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "E12", // ALGEBRA LINEAL
+    "grupo": "A",
+    "profesorId": "tello-mijares-jose-de-jesus-santiago", // TELLO MIJARES JOSÉ DE JESÚS SANTIAGO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "CB3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "CB3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "CB3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "CB3"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "CB3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E12", // ALGEBRA LINEAL
+    "grupo": "B",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E12", // ALGEBRA LINEAL
+    "grupo": "C",
+    "profesorId": "morales-lopez-jesus-enrique", // MORALES LOPEZ JESUS ENRIQUE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19B"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E12", // ALGEBRA LINEAL
+    "grupo": "D",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19I"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "51D", // ANALISIS DE DATOS Y MACHINE LEARNING
+    "grupo": "A",
+    "profesorId": "hamdan-medina-lamia", // HAMDAN MEDINA LAMIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "51D", // ANALISIS DE DATOS Y MACHINE LEARNING
+    "grupo": "B",
+    "profesorId": "uribe-agundis-diego", // URIBE AGUNDIS DIEGO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "F15", // ARQUITECTURA DE COMPUTADORAS
+    "grupo": "A",
+    "profesorId": "guardado-guzman-sergio-victor", // GUARDADO GUZMAN SERGIO VICTOR
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F15", // ARQUITECTURA DE COMPUTADORAS
+    "grupo": "B",
+    "profesorId": "hinojosa-escajeda-juan-diego", // HINOJOSA ESCAJEDA JUAN DIEGO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA4"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA4"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA4"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA4"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA4"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F15", // ARQUITECTURA DE COMPUTADORAS
+    "grupo": "C",
+    "profesorId": "santiago-barragan-antonio-de", // SANTIAGO BARRAGAN ANTONIO DE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19H"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "41D", // ARQUITECTURA DE SERVICIOS EN LA NUBE
+    "grupo": "A",
+    "profesorId": "mota-espeleta-jose-luis", // MOTA ESPELETA JOSE LUIS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA6"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "41D", // ARQUITECTURA DE SERVICIOS EN LA NUBE
+    "grupo": "B",
+    "profesorId": "moreno-orona-erik-alan", // MORENO ORONA ERIK ALAN
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "A11", // CALCULO DIFERENCIAL
+    "grupo": "A",
+    "profesorId": "zapata-davila-jose-luis", // ZAPATA DAVILA JOSE LUIS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19G"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A11", // CALCULO DIFERENCIAL
+    "grupo": "D",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A11", // CALCULO DIFERENCIAL
+    "grupo": "G",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A11", // CALCULO DIFERENCIAL
+    "grupo": "L",
+    "profesorId": "ramirez-woo-cesar", // RAMIREZ WOO CESAR
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A12", // CALCULO INTEGRAL
+    "grupo": "A",
+    "profesorId": "cuan-duron-ernesto", // CUAN DURON ERNESTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19I"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A12", // CALCULO INTEGRAL
+    "grupo": "B",
+    "profesorId": "cuan-duron-ernesto", // CUAN DURON ERNESTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A12", // CALCULO INTEGRAL
+    "grupo": "C",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19H"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A12", // CALCULO INTEGRAL
+    "grupo": "D",
+    "profesorId": "pacheco-casas-jose-candelario", // PACHECO CASAS JOSE CANDELARIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19B"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A13", // CALCULO VECTORIAL
+    "grupo": "A",
+    "profesorId": "turcios-hernandez-angel-fernando", // TURCIOS HERNANDEZ ANGEL FERNANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19B"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A13", // CALCULO VECTORIAL
+    "grupo": "B",
+    "profesorId": "oliveros-munoz-juan-manuel", // OLIVEROS MUÑOZ JUAN MANUEL
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19G"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A13", // CALCULO VECTORIAL
+    "grupo": "C",
+    "profesorId": "turcios-hernandez-angel-fernando", // TURCIOS HERNANDEZ ANGEL FERNANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19B"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E17", // CONMUTACION Y ENRUTAMIENTO EN REDES DE DATOS
+    "grupo": "A",
+    "profesorId": "de-avila-sanchez-ricardo", // DE AVILA SANCHEZ RICARDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA1"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E17", // CONMUTACION Y ENRUTAMIENTO EN REDES DE DATOS
+    "grupo": "B",
+    "profesorId": "enriquez-flores-armando", // ENRIQUEZ FLORES ARMANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA1"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E17", // CONMUTACION Y ENRUTAMIENTO EN REDES DE DATOS
+    "grupo": "C",
+    "profesorId": "santiago-barragan-antonio-de", // SANTIAGO BARRAGAN ANTONIO DE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "MYR"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C13", // CONTABILIDAD FINANCIERA
+    "grupo": "A",
+    "profesorId": "hernandez-gaytan-mireya", // HERNANDEZ GAYTAN MIREYA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19I"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C13", // CONTABILIDAD FINANCIERA
+    "grupo": "B",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C13", // CONTABILIDAD FINANCIERA
+    "grupo": "C",
+    "profesorId": "hernandez-gaytan-mireya", // HERNANDEZ GAYTAN MIREYA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19B"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C18", // CULTURA EMPRESARIAL
+    "grupo": "A",
+    "profesorId": "palacios-duran-carla-rocio", // PALACIOS DURAN CARLA ROCIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C18", // CULTURA EMPRESARIAL
+    "grupo": "B",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "21D", // DESARROLLO DE APLICACIONES EN ANDROID
+    "grupo": "A",
+    "profesorId": "mota-espeleta-jose-luis", // MOTA ESPELETA JOSE LUIS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA6"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "21D", // DESARROLLO DE APLICACIONES EN ANDROID
+    "grupo": "B",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA6"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "31D", // DESARROLLO DE APLICACIONES EN IOS
+    "grupo": "A",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "31D", // DESARROLLO DE APLICACIONES EN IOS
+    "grupo": "B",
+    "profesorId": "arias-hernandez-lina-ernestina", // ARIAS HERNANDEZ LINA ERNESTINA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "C12", // DESARROLLO SUSTENTABLE
+    "grupo": "A",
+    "profesorId": "santiago-barragan-mayela-de", // SANTIAGO BARRAGAN MAYELA DE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C12", // DESARROLLO SUSTENTABLE
+    "grupo": "B",
+    "profesorId": "aguirre-mejia-elena-tzetzangary", // AGUIRRE MEJÍA ELENA TZETZANGARY
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C12", // DESARROLLO SUSTENTABLE
+    "grupo": "C",
+    "profesorId": "sandoval-chavez-maria-guadalupe", // SANDOVAL CHAVEZ MARIA GUADALUPE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "10:00",
+        "aula": "AA3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "11D", // DESARROLLO WEB FULL STACK 1
+    "grupo": "A",
+    "profesorId": "perez-martinez-enrique-humberto", // PEREZ MARTINEZ ENRIQUE HUMBERTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "11D", // DESARROLLO WEB FULL STACK 1
+    "grupo": "B",
+    "profesorId": "rodriguez-ulloa-juan-carlos", // RODRIGUEZ ULLOA JUAN CARLOS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "61D", // DESARROLLO WEB FULL STACK 2
+    "grupo": "A",
+    "profesorId": "rodriguez-ulloa-juan-carlos", // RODRIGUEZ ULLOA JUAN CARLOS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "A14", // ECUACIONES DIFERENCIALES
+    "grupo": "A",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A14", // ECUACIONES DIFERENCIALES
+    "grupo": "B",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B13", // ESTRUCTURA DE DATOS
+    "grupo": "A",
+    "profesorId": "zapata-davila-jose-luis", // ZAPATA DAVILA JOSE LUIS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B13", // ESTRUCTURA DE DATOS
+    "grupo": "B",
+    "profesorId": "valdes-alvarado-martin-oswaldo", // VALDES ALVARADO MARTIN OSWALDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B13", // ESTRUCTURA DE DATOS
+    "grupo": "C",
+    "profesorId": "rodriguez-de-la-torre-karla-lucia", // RODRIGUEZ DE LA TORRE KARLA LUCIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F13", // FISICA GENERAL
+    "grupo": "A",
+    "profesorId": "avila-sandoval-rogelio", // AVILA SANDOVAL ROGELIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F13", // FISICA GENERAL
+    "grupo": "B",
+    "profesorId": "avila-sandoval-rogelio", // AVILA SANDOVAL ROGELIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F13", // FISICA GENERAL
+    "grupo": "C",
+    "profesorId": "saucedo-martinez-pablo", // SAUCEDO MARTINEZ PABLO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F13", // FISICA GENERAL
+    "grupo": "D",
+    "profesorId": "saucedo-martinez-pablo", // SAUCEDO MARTINEZ PABLO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C14", // FUNDAMENTOS DE BASES DE DATOS
+    "grupo": "A",
+    "profesorId": "vela-alvarez-georgina-elizabeth", // VELA ALVAREZ GEORGINA ELIZABETH
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C14", // FUNDAMENTOS DE BASES DE DATOS
+    "grupo": "B",
+    "profesorId": "garay-espinoza-antonio", // GARAY ESPINOZA ANTONIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C14", // FUNDAMENTOS DE BASES DE DATOS
+    "grupo": "C",
+    "profesorId": "rodriguez-de-la-torre-karla-lucia", // RODRIGUEZ DE LA TORRE KARLA LUCIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B15", // FUNDAMENTOS DE INGENIERIA DE SOFTWARE
+    "grupo": "A",
+    "profesorId": "palacios-duran-carla-rocio", // PALACIOS DURAN CARLA ROCIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B15", // FUNDAMENTOS DE INGENIERIA DE SOFTWARE
+    "grupo": "B",
+    "profesorId": "padilla-torres-michelle", // PADILLA TORRES MICHELLE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA6"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F11", // FUNDAMENTOS DE INVESTIGACION
+    "grupo": "A",
+    "profesorId": "alcala-wong-daniel", // ALCALA WONG DANIEL
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19B"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F11", // FUNDAMENTOS DE INVESTIGACION
+    "grupo": "D",
+    "profesorId": "aguirre-mejia-elena-tzetzangary", // AGUIRRE MEJÍA ELENA TZETZANGARY
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA2"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F11", // FUNDAMENTOS DE INVESTIGACION
+    "grupo": "G",
+    "profesorId": "ruiz-ayala-jose-dolores", // RUIZ AYALA JOSE DOLORES
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA1"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F11", // FUNDAMENTOS DE INVESTIGACION
+    "grupo": "L",
+    "profesorId": "flores-barajas-silvana-marin", // FLORES BARAJAS SILVANA MARIN
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA1"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B11", // FUNDAMENTOS DE PROGRAMACION
+    "grupo": "A",
+    "profesorId": "lopez-cisena-armando", // LOPEZ CISEÑA ARMANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B11", // FUNDAMENTOS DE PROGRAMACION
+    "grupo": "B",
+    "profesorId": "arellano-casillas-maria-teresa", // ARELLANO CASILLAS MARIA TERESA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA2"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B11", // FUNDAMENTOS DE PROGRAMACION
+    "grupo": "D",
+    "profesorId": "lopez-cisena-armando", // LOPEZ CISEÑA ARMANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B11", // FUNDAMENTOS DE PROGRAMACION
+    "grupo": "G",
+    "profesorId": "garay-espinoza-antonio", // GARAY ESPINOZA ANTONIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B11", // FUNDAMENTOS DE PROGRAMACION
+    "grupo": "L",
+    "profesorId": "rodriguez-de-la-torre-karla-lucia", // RODRIGUEZ DE LA TORRE KARLA LUCIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E15", // FUNDAMENTOS DE TELECOMUNICACIONES
+    "grupo": "A",
+    "profesorId": "de-avila-sanchez-ricardo", // DE AVILA SANCHEZ RICARDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA1"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E15", // FUNDAMENTOS DE TELECOMUNICACIONES
+    "grupo": "B",
+    "profesorId": "morales-lopez-jesus-enrique", // MORALES LOPEZ JESUS ENRIQUE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B17", // GESTION DE PROYECTOS DE SOFTWARE
+    "grupo": "A",
+    "profesorId": "hamdan-medina-lamia", // HAMDAN MEDINA LAMIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "12:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B17", // GESTION DE PROYECTOS DE SOFTWARE
+    "grupo": "B",
+    "profesorId": "flores-alarcon-ma-susana", // FLORES ALARCON MA. SUSANA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "16:00",
+        "horaFin": "18:00",
+        "aula": "AA6"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C17", // GRAFICACION
+    "grupo": "A",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C17", // GRAFICACION
+    "grupo": "B",
+    "profesorId": "garcia-munoz-luis-hector", // GARCIA MUÑOZ LUIS HECTOR
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B16", // INGENIERIA DE SOFTWARE
+    "grupo": "A",
+    "profesorId": "padilla-torres-michelle", // PADILLA TORRES MICHELLE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA2"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B16", // INGENIERIA DE SOFTWARE
+    "grupo": "B",
+    "profesorId": "flores-alarcon-ma-susana", // FLORES ALARCON MA. SUSANA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B18", // INTELIGENCIA ARTIFICIAL
+    "grupo": "A",
+    "profesorId": "hamdan-medina-lamia", // HAMDAN MEDINA LAMIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B18", // INTELIGENCIA ARTIFICIAL
+    "grupo": "B",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D13", // INVESTIGACION DE OPERACIONES
+    "grupo": "A",
+    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO IDALIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D13", // INVESTIGACION DE OPERACIONES
+    "grupo": "B",
+    "profesorId": "montoya-alvarez-federico-javier", // MONTOYA ALVAREZ FEDERICO JAVIER
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19H"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D13", // INVESTIGACION DE OPERACIONES
+    "grupo": "C",
+    "profesorId": "santiago-barragan-mayela-de", // SANTIAGO BARRAGAN MAYELA DE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F16", // LENGUAJES DE INTERFAZ
+    "grupo": "A",
+    "profesorId": "ruiz-arroyo-armando", // RUIZ ARROYO ARMANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F16", // LENGUAJES DE INTERFAZ
+    "grupo": "B",
+    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO IDALIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A16", // LENGUAJES Y AUTOMATAS I
+    "grupo": "A",
+    "profesorId": "saucedo-martinez-pablo", // SAUCEDO MARTINEZ PABLO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A16", // LENGUAJES Y AUTOMATAS I
+    "grupo": "B",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A17", // LENGUAJES Y AUTOMATAS II
+    "grupo": "A",
+    "profesorId": "gil-vazquez-luis-fernando", // GIL VAZQUEZ LUIS FERNANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "AA3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A17", // LENGUAJES Y AUTOMATAS II
+    "grupo": "B",
+    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO IDALIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "AA3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D11", // MATEMATICAS DISCRETAS
+    "grupo": "A",
+    "profesorId": "cuan-duron-ernesto", // CUAN DURON ERNESTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D11", // MATEMATICAS DISCRETAS
+    "grupo": "D",
+    "profesorId": "padilla-torres-michelle", // PADILLA TORRES MICHELLE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D11", // MATEMATICAS DISCRETAS
+    "grupo": "G",
+    "profesorId": "guardado-guzman-sergio-victor", // GUARDADO GUZMAN SERGIO VICTOR
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D11", // MATEMATICAS DISCRETAS
+    "grupo": "L",
+    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO IDALIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A15", // METODOS NUMERICOS
+    "grupo": "A",
+    "profesorId": "palacios-duran-carla-rocio", // PALACIOS DURAN CARLA ROCIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A15", // METODOS NUMERICOS
+    "grupo": "B",
+    "profesorId": "villalobos-chin-jorge-alberto", // VILLALOBOS CHIN JORGE ALBERTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "19:00",
+        "horaFin": "20:00",
+        "aula": "AA2"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F14", // PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES
+    "grupo": "A",
+    "profesorId": "hinojosa-escajeda-juan-diego", // HINOJOSA ESCAJEDA JUAN DIEGO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "LA2"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "LA2"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F14", // PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES
+    "grupo": "B",
+    "profesorId": "guardado-guzman-sergio-victor", // GUARDADO GUZMAN SERGIO VICTOR
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "LA2"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F14", // PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES
+    "grupo": "C",
+    "profesorId": "morales-lopez-jesus-enrique", // MORALES LOPEZ JESUS ENRIQUE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19H"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F12", // PROBABILIDAD Y ESTADISTICA
+    "grupo": "A",
+    "profesorId": "santiago-barragan-mayela-de", // SANTIAGO BARRAGAN MAYELA DE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F12", // PROBABILIDAD Y ESTADISTICA
+    "grupo": "B",
+    "profesorId": "gutierrez-mendoza-joceelyn-aranza", // GUTIERREZ MENDOZA JOCEELYN ARANZA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F12", // PROBABILIDAD Y ESTADISTICA
+    "grupo": "C",
+    "profesorId": "zapata-davila-jose-luis", // ZAPATA DAVILA JOSE LUIS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "08:00",
+        "horaFin": "09:00",
+        "aula": "19H"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F12", // PROBABILIDAD Y ESTADISTICA
+    "grupo": "D",
+    "profesorId": "espino-marquez-lizeth", // ESPINO MARQUEZ LIZETH
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19H"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "A18", // PROGRAMACION LOGICA Y FUNCIONAL
+    "grupo": "A",
+    "profesorId": "uribe-agundis-diego", // URIBE AGUNDIS DIEGO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "A18", // PROGRAMACION LOGICA Y FUNCIONAL
+    "grupo": "B",
+    "profesorId": "garcia-munoz-luis-hector", // GARCIA MUÑOZ LUIS HECTOR
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "B12", // PROGRAMACION ORIENTADA A OBJETOS
+    "grupo": "A",
+    "profesorId": "lopez-cisena-armando", // LOPEZ CISEÑA ARMANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B12", // PROGRAMACION ORIENTADA A OBJETOS
+    "grupo": "B",
+    "profesorId": "lopez-cisena-armando", // LOPEZ CISEÑA ARMANDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B12", // PROGRAMACION ORIENTADA A OBJETOS
+    "grupo": "C",
+    "profesorId": "rodriguez-de-la-torre-karla-lucia", // RODRIGUEZ DE LA TORRE KARLA LUCIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B12", // PROGRAMACION ORIENTADA A OBJETOS
+    "grupo": "D",
+    "profesorId": "flores-barajas-silvana-marin", // FLORES BARAJAS SILVANA MARIN
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA7"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA7"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F17", // PROGRAMACION WEB
+    "grupo": "A",
+    "profesorId": "esparza-ibarra-jesus-roberto", // ESPARZA IBARRA JESUS ROBERTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "AA6"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F17", // PROGRAMACION WEB
+    "grupo": "B",
+    "profesorId": "urbina-amador-ana-lilia", // URBINA AMADOR ANA LILIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D12", // QUIMICA
+    "grupo": "A",
+    "profesorId": "martinez-portillo-viviana-josselyn", // MARTINEZ PORTILLO VIVIANA JOSSELYN
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "LQ1"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19I"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19I"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D12", // QUIMICA
+    "grupo": "B",
+    "profesorId": "sanchez-garcia-antonio", // SANCHEZ GARCIA ANTONIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "LQ1"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D12", // QUIMICA
+    "grupo": "C",
+    "profesorId": "hernandez-antuna-maria-de-la-luz", // HERNANDEZ ANTUNA MARIA DE LA LUZ
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "LQ1"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19H"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E16", // REDES DE COMPUTADORAS
+    "grupo": "A",
+    "profesorId": "de-avila-sanchez-ricardo", // DE AVILA SANCHEZ RICARDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "AA1"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E16", // REDES DE COMPUTADORAS
+    "grupo": "B",
+    "profesorId": "santiago-barragan-antonio-de", // SANTIAGO BARRAGAN ANTONIO DE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "17:00",
+        "horaFin": "18:00",
+        "aula": "AA3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "R19", // RESIDENCIA
+    "grupo": "A",
+    "profesorId": null,
+    "sesiones": [],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D16", // SIMULACION
+    "grupo": "A",
+    "profesorId": "santiago-barragan-mayela-de", // SANTIAGO BARRAGAN MAYELA DE
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19J"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19J"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "D16", // SIMULACION
+    "grupo": "B",
+    "profesorId": "cuan-duron-ernesto", // CUAN DURON ERNESTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E13", // SISTEMAS OPERATIVOS
+    "grupo": "A",
+    "profesorId": "perez-martinez-enrique-humberto", // PEREZ MARTINEZ ENRIQUE HUMBERTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E13", // SISTEMAS OPERATIVOS
+    "grupo": "B",
+    "profesorId": "garay-espinoza-antonio", // GARAY ESPINOZA ANTONIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA5"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "18:00",
+        "horaFin": "19:00",
+        "aula": "AA5"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "F18", // SISTEMAS PROGRAMABLES
+    "grupo": "A",
+    "profesorId": "hamdan-medina-lamia", // HAMDAN MEDINA LAMIA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "F18", // SISTEMAS PROGRAMABLES
+    "grupo": "B",
+    "profesorId": "mota-espeleta-jose-luis", // MOTA ESPELETA JOSE LUIS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0.6
+  },
+  {
+    "materiaClave": "E11", // TALLER DE ADMINISTRACION
+    "grupo": "A",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19G"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E11", // TALLER DE ADMINISTRACION
+    "grupo": "D",
+    "profesorId": "rincon-escobedo-ma-martha", // RINCON ESCOBEDO MA. MARTHA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "07:00",
+        "horaFin": "08:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E11", // TALLER DE ADMINISTRACION
+    "grupo": "G",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E11", // TALLER DE ADMINISTRACION
+    "grupo": "L",
+    "profesorId": "rincon-escobedo-ma-martha", // RINCON ESCOBEDO MA. MARTHA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C15", // TALLER DE BASE DE DATOS
+    "grupo": "A",
+    "profesorId": "ruiz-ayala-jose-dolores", // RUIZ AYALA JOSE DOLORES
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "AA3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C15", // TALLER DE BASE DE DATOS
+    "grupo": "B",
+    "profesorId": "rodriguez-ulloa-juan-carlos", // RODRIGUEZ ULLOA JUAN CARLOS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19K"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19K"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C11", // TALLER DE ETICA
+    "grupo": "A",
+    "profesorId": "gonzalez-ramirez-pascual-gerardo", // GONZALEZ RAMIREZ PASCUAL GERARDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19F"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "14:00",
+        "horaFin": "15:00",
+        "aula": "19F"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C11", // TALLER DE ETICA
+    "grupo": "D",
+    "profesorId": "palacios-duran-carla-rocio", // PALACIOS DURAN CARLA ROCIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C11", // TALLER DE ETICA
+    "grupo": "G",
+    "profesorId": "palacios-duran-carla-rocio", // PALACIOS DURAN CARLA ROCIO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "C11", // TALLER DE ETICA
+    "grupo": "L",
+    "profesorId": "gonzalez-ramirez-pascual-gerardo", // GONZALEZ RAMIREZ PASCUAL GERARDO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19D"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "G15", // TALLER DE INVESTIGACION I
+    "grupo": "A",
+    "profesorId": "alcala-wong-daniel", // ALCALA WONG DANIEL
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19B"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "13:00",
+        "horaFin": "14:00",
+        "aula": "19B"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "G15", // TALLER DE INVESTIGACION I
+    "grupo": "B",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19G"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19G"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "G16", // TALLER DE INVESTIGACION II
+    "grupo": "A",
+    "profesorId": "uribe-agundis-diego", // URIBE AGUNDIS DIEGO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19C"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "G16", // TALLER DE INVESTIGACION II
+    "grupo": "B",
+    "profesorId": "flores-barajas-silvana-marin", // FLORES BARAJAS SILVANA MARIN
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA2"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA1"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "12:00",
+        "horaFin": "13:00",
+        "aula": "AA1"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "G16", // TALLER DE INVESTIGACION II
+    "grupo": "C",
+    "profesorId": "flores-alarcon-ma-susana", // FLORES ALARCON MA. SUSANA
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19H"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19H"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E14", // TALLER DE SISTEMAS OPERATIVOS
+    "grupo": "A",
+    "profesorId": "vela-alvarez-georgina-elizabeth", // VELA ALVAREZ GEORGINA ELIZABETH
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19L"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "19L"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "E14", // TALLER DE SISTEMAS OPERATIVOS
+    "grupo": "B",
+    "profesorId": "esparza-ibarra-jesus-roberto", // ESPARZA IBARRA JESUS ROBERTO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA3"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "AA3"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B14", // TOPICOS AVANZADOS DE PROGRAMACION
+    "grupo": "A",
+    "profesorId": "saucedo-martinez-pablo", // SAUCEDO MARTINEZ PABLO
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA6"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "09:00",
+        "horaFin": "10:00",
+        "aula": "AA6"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "B14", // TOPICOS AVANZADOS DE PROGRAMACION
+    "grupo": "B",
+    "profesorId": "mota-espeleta-jose-luis", // MOTA ESPELETA JOSE LUIS
+    "sesiones": [
+      {
+        "dia": "lunes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "martes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "miercoles",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "jueves",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19M"
+      },
+      {
+        "dia": "viernes",
+        "horaInicio": "15:00",
+        "horaFin": "16:00",
+        "aula": "19M"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "T11", // TUTORIA
+    "grupo": "D",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "viernes",
+        "horaInicio": "10:00",
+        "horaFin": "11:00",
+        "aula": "19C"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "T11", // TUTORIA
+    "grupo": "G",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "viernes",
+        "horaInicio": "16:00",
+        "horaFin": "17:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  },
+  {
+    "materiaClave": "T11", // TUTORIA
+    "grupo": "L",
+    "profesorId": null,
+    "sesiones": [
+      {
+        "dia": "viernes",
+        "horaInicio": "11:00",
+        "horaFin": "12:00",
+        "aula": "19D"
+      }
+    ],
+    "porcentajeCreditosNecesario": 0
+  }
+]

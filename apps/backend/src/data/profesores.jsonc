@@ -1,0 +1,217 @@
+// profesores.json — catedráticos que aparecen en la oferta académica.
+// `id` es un slug derivado del nombre (sin acentos, en minúsculas).
+// Los grupos con "MAESTRO POR ASIGNAR" en el Excel quedan con profesorId: null en grupos.json.
+[
+  {
+    "id": "aguirre-mejia-elena-tzetzangary",
+    "nombre": "AGUIRRE MEJÍA ELENA TZETZANGARY"
+  },
+  {
+    "id": "alcala-wong-daniel",
+    "nombre": "ALCALA WONG DANIEL"
+  },
+  {
+    "id": "arellano-casillas-maria-teresa",
+    "nombre": "ARELLANO CASILLAS MARIA TERESA"
+  },
+  {
+    "id": "arias-hernandez-lina-ernestina",
+    "nombre": "ARIAS HERNANDEZ LINA ERNESTINA"
+  },
+  {
+    "id": "avila-sandoval-rogelio",
+    "nombre": "AVILA SANDOVAL ROGELIO"
+  },
+  {
+    "id": "cuan-duron-ernesto",
+    "nombre": "CUAN DURON ERNESTO"
+  },
+  {
+    "id": "de-avila-sanchez-ricardo",
+    "nombre": "DE AVILA SANCHEZ RICARDO"
+  },
+  {
+    "id": "enriquez-flores-armando",
+    "nombre": "ENRIQUEZ FLORES ARMANDO"
+  },
+  {
+    "id": "esparza-ibarra-jesus-roberto",
+    "nombre": "ESPARZA IBARRA JESUS ROBERTO"
+  },
+  {
+    "id": "espino-marquez-lizeth",
+    "nombre": "ESPINO MARQUEZ LIZETH"
+  },
+  {
+    "id": "flores-alarcon-ma-susana",
+    "nombre": "FLORES ALARCON MA. SUSANA"
+  },
+  {
+    "id": "flores-barajas-silvana-marin",
+    "nombre": "FLORES BARAJAS SILVANA MARIN"
+  },
+  {
+    "id": "garay-espinoza-antonio",
+    "nombre": "GARAY ESPINOZA ANTONIO"
+  },
+  {
+    "id": "garcia-munoz-luis-hector",
+    "nombre": "GARCIA MUÑOZ LUIS HECTOR"
+  },
+  {
+    "id": "gil-vazquez-luis-fernando",
+    "nombre": "GIL VAZQUEZ LUIS FERNANDO"
+  },
+  {
+    "id": "gonzalez-ramirez-pascual-gerardo",
+    "nombre": "GONZALEZ RAMIREZ PASCUAL GERARDO"
+  },
+  {
+    "id": "guardado-guzman-sergio-victor",
+    "nombre": "GUARDADO GUZMAN SERGIO VICTOR"
+  },
+  {
+    "id": "gutierrez-mendoza-joceelyn-aranza",
+    "nombre": "GUTIERREZ MENDOZA JOCEELYN ARANZA"
+  },
+  {
+    "id": "hamdan-medina-lamia",
+    "nombre": "HAMDAN MEDINA LAMIA"
+  },
+  {
+    "id": "hernandez-antuna-maria-de-la-luz",
+    "nombre": "HERNANDEZ ANTUNA MARIA DE LA LUZ"
+  },
+  {
+    "id": "hernandez-gaytan-mireya",
+    "nombre": "HERNANDEZ GAYTAN MIREYA"
+  },
+  {
+    "id": "hinojosa-escajeda-juan-diego",
+    "nombre": "HINOJOSA ESCAJEDA JUAN DIEGO"
+  },
+  {
+    "id": "lopez-cisena-armando",
+    "nombre": "LOPEZ CISEÑA ARMANDO"
+  },
+  {
+    "id": "martinez-portillo-viviana-josselyn",
+    "nombre": "MARTINEZ PORTILLO VIVIANA JOSSELYN"
+  },
+  {
+    "id": "montoya-alvarez-federico-javier",
+    "nombre": "MONTOYA ALVAREZ FEDERICO JAVIER"
+  },
+  {
+    "id": "morales-lopez-jesus-enrique",
+    "nombre": "MORALES LOPEZ JESUS ENRIQUE"
+  },
+  {
+    "id": "moreno-orona-erik-alan",
+    "nombre": "MORENO ORONA ERIK ALAN"
+  },
+  {
+    "id": "mota-espeleta-jose-luis",
+    "nombre": "MOTA ESPELETA JOSE LUIS"
+  },
+  {
+    "id": "oliveros-munoz-juan-manuel",
+    "nombre": "OLIVEROS MUÑOZ JUAN MANUEL"
+  },
+  {
+    "id": "pacheco-casas-jose-candelario",
+    "nombre": "PACHECO CASAS JOSE CANDELARIO"
+  },
+  {
+    "id": "padilla-torres-michelle",
+    "nombre": "PADILLA TORRES MICHELLE"
+  },
+  {
+    "id": "palacios-duran-carla-rocio",
+    "nombre": "PALACIOS DURAN CARLA ROCIO"
+  },
+  {
+    "id": "perez-martinez-enrique-humberto",
+    "nombre": "PEREZ MARTINEZ ENRIQUE HUMBERTO"
+  },
+  {
+    "id": "ramirez-woo-cesar",
+    "nombre": "RAMIREZ WOO CESAR"
+  },
+  {
+    "id": "rincon-escobedo-ma-martha",
+    "nombre": "RINCON ESCOBEDO MA. MARTHA"
+  },
+  {
+    "id": "rodriguez-de-la-torre-karla-lucia",
+    "nombre": "RODRIGUEZ DE LA TORRE KARLA LUCIA"
+  },
+  {
+    "id": "rodriguez-ulloa-juan-carlos",
+    "nombre": "RODRIGUEZ ULLOA JUAN CARLOS"
+  },
+  {
+    "id": "ruiz-arroyo-armando",
+    "nombre": "RUIZ ARROYO ARMANDO"
+  },
+  {
+    "id": "ruiz-arroyo-idalia",
+    "nombre": "RUIZ ARROYO IDALIA"
+  },
+  {
+    "id": "ruiz-ayala-jose-dolores",
+    "nombre": "RUIZ AYALA JOSE DOLORES"
+  },
+  {
+    "id": "sanchez-garcia-antonio",
+    "nombre": "SANCHEZ GARCIA ANTONIO"
+  },
+  {
+    "id": "sandoval-chavez-maria-guadalupe",
+    "nombre": "SANDOVAL CHAVEZ MARIA GUADALUPE"
+  },
+  {
+    "id": "santiago-barragan-antonio-de",
+    "nombre": "SANTIAGO BARRAGAN ANTONIO DE"
+  },
+  {
+    "id": "santiago-barragan-mayela-de",
+    "nombre": "SANTIAGO BARRAGAN MAYELA DE"
+  },
+  {
+    "id": "saucedo-martinez-pablo",
+    "nombre": "SAUCEDO MARTINEZ PABLO"
+  },
+  {
+    "id": "tello-mijares-jose-de-jesus-santiago",
+    "nombre": "TELLO MIJARES JOSÉ DE JESÚS SANTIAGO"
+  },
+  {
+    "id": "turcios-hernandez-angel-fernando",
+    "nombre": "TURCIOS HERNANDEZ ANGEL FERNANDO"
+  },
+  {
+    "id": "urbina-amador-ana-lilia",
+    "nombre": "URBINA AMADOR ANA LILIA"
+  },
+  {
+    "id": "uribe-agundis-diego",
+    "nombre": "URIBE AGUNDIS DIEGO"
+  },
+  {
+    "id": "valdes-alvarado-martin-oswaldo",
+    "nombre": "VALDES ALVARADO MARTIN OSWALDO"
+  },
+  {
+    "id": "vela-alvarez-georgina-elizabeth",
+    "nombre": "VELA ALVAREZ GEORGINA ELIZABETH"
+  },
+  {
+    "id": "villalobos-chin-jorge-alberto",
+    "nombre": "VILLALOBOS CHIN JORGE ALBERTO"
+  },
+  {
+    "id": "zapata-davila-jose-luis",
+    "nombre": "ZAPATA DAVILA JOSE LUIS"
+  }
+]

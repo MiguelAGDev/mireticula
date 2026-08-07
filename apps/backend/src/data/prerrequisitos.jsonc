@@ -1,0 +1,357 @@
+// prerrequisitos.json — requisitos por materia. Solo incluye materias que
+// tienen al menos un requisito. `requisitos[].tipo` distingue:
+//   - "prerrequisito": materia que debe estar aprobada (columna Requisitos).
+//   - "correquisito": materia a cursar junto, o ya aprobada (columna Correquisitos).
+//   - "porcentajeCreditos": % de créditos del plan que se deben tener aprobados (columna %Necesario > 0).
+//   - "requisitoEspecial": código en Requisitos/Correquisitos que NO es una clave de materia
+//     válida del catálogo (ej. servicio social / avance crediticio para Residencia).
+//     Ver `descripcion` en cada uno para la hipótesis y qué falta confirmar manualmente.
+[
+  {
+    "materiaClave": "11D", // DESARROLLO WEB FULL STACK 1
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "21D", // DESARROLLO DE APLICACIONES EN ANDROID
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "31D", // DESARROLLO DE APLICACIONES EN IOS
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "41D", // ARQUITECTURA DE SERVICIOS EN LA NUBE
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "51D", // ANALISIS DE DATOS Y MACHINE LEARNING
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "61D", // DESARROLLO WEB FULL STACK 2
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "A12", // CALCULO INTEGRAL
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "A11" // CALCULO DIFERENCIAL
+      }
+    ]
+  },
+  {
+    "materiaClave": "A13", // CALCULO VECTORIAL
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "A12" // CALCULO INTEGRAL
+      }
+    ]
+  },
+  {
+    "materiaClave": "A14", // ECUACIONES DIFERENCIALES
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "A13" // CALCULO VECTORIAL
+      }
+    ]
+  },
+  {
+    "materiaClave": "A16", // LENGUAJES Y AUTOMATAS I
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "B13" // ESTRUCTURA DE DATOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "A17", // LENGUAJES Y AUTOMATAS II
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "A16" // LENGUAJES Y AUTOMATAS I
+      }
+    ]
+  },
+  {
+    "materiaClave": "A18", // PROGRAMACION LOGICA Y FUNCIONAL
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "B12", // PROGRAMACION ORIENTADA A OBJETOS
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "B11" // FUNDAMENTOS DE PROGRAMACION
+      }
+    ]
+  },
+  {
+    "materiaClave": "B13", // ESTRUCTURA DE DATOS
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "B12" // PROGRAMACION ORIENTADA A OBJETOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "B14", // TOPICOS AVANZADOS DE PROGRAMACION
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "B13" // ESTRUCTURA DE DATOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "B16", // INGENIERIA DE SOFTWARE
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "B15" // FUNDAMENTOS DE INGENIERIA DE SOFTWARE
+      }
+    ]
+  },
+  {
+    "materiaClave": "B17", // GESTION DE PROYECTOS DE SOFTWARE
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "B16" // INGENIERIA DE SOFTWARE
+      }
+    ]
+  },
+  {
+    "materiaClave": "B18", // INTELIGENCIA ARTIFICIAL
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "A18" // PROGRAMACION LOGICA Y FUNCIONAL
+      }
+    ]
+  },
+  {
+    "materiaClave": "C14", // FUNDAMENTOS DE BASES DE DATOS
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "B12" // PROGRAMACION ORIENTADA A OBJETOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "C15", // TALLER DE BASE DE DATOS
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "C14" // FUNDAMENTOS DE BASES DE DATOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "C16", // ADMINISTRACION DE BASE DE DATOS
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "C17", // GRAFICACION
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "B13" // ESTRUCTURA DE DATOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "D13", // INVESTIGACION DE OPERACIONES
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "E12" // ALGEBRA LINEAL
+      },
+      {
+        "tipo": "correquisito",
+        "clave": "F12" // PROBABILIDAD Y ESTADISTICA
+      }
+    ]
+  },
+  {
+    "materiaClave": "D16", // SIMULACION
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "D13" // INVESTIGACION DE OPERACIONES
+      }
+    ]
+  },
+  {
+    "materiaClave": "E13", // SISTEMAS OPERATIVOS
+    "requisitos": [
+      {
+        "tipo": "correquisito",
+        "clave": "B13" // ESTRUCTURA DE DATOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "E14", // TALLER DE SISTEMAS OPERATIVOS
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "E13" // SISTEMAS OPERATIVOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "E15", // FUNDAMENTOS DE TELECOMUNICACIONES
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "F14" // PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES
+      }
+    ]
+  },
+  {
+    "materiaClave": "E16", // REDES DE COMPUTADORAS
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "E15" // FUNDAMENTOS DE TELECOMUNICACIONES
+      }
+    ]
+  },
+  {
+    "materiaClave": "E17", // CONMUTACION Y ENRUTAMIENTO EN REDES DE DATOS
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "E16" // REDES DE COMPUTADORAS
+      }
+    ]
+  },
+  {
+    "materiaClave": "E18", // ADMINISTRACION DE REDES
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "E17" // CONMUTACION Y ENRUTAMIENTO EN REDES DE DATOS
+      },
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "F14", // PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "F13" // FISICA GENERAL
+      }
+    ]
+  },
+  {
+    "materiaClave": "F15", // ARQUITECTURA DE COMPUTADORAS
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "F14" // PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES
+      }
+    ]
+  },
+  {
+    "materiaClave": "F16", // LENGUAJES DE INTERFAZ
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "F15" // ARQUITECTURA DE COMPUTADORAS
+      }
+    ]
+  },
+  {
+    "materiaClave": "F17", // PROGRAMACION WEB
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "C15" // TALLER DE BASE DE DATOS
+      }
+    ]
+  },
+  {
+    "materiaClave": "F18", // SISTEMAS PROGRAMABLES
+    "requisitos": [
+      {
+        "tipo": "porcentajeCreditos",
+        "porcentaje": 0.6
+      }
+    ]
+  },
+  {
+    "materiaClave": "G16", // TALLER DE INVESTIGACION II
+    "requisitos": [
+      {
+        "tipo": "prerrequisito",
+        "clave": "G15" // TALLER DE INVESTIGACION I
+      }
+    ]
+  },
+  {
+    "materiaClave": "R19", // RESIDENCIA
+    "requisitos": [
+      {
+        "tipo": "requisitoEspecial",
+        "codigoOriginal": "A1C",
+        "descripcion": "Código \"A1C\" en la columna Requisitos de R19 (RESIDENCIA) no corresponde a ninguna clave de materia del catálogo. Probablemente se refiera a avance crediticio y/o servicio social (típico para Residencia Profesional). Verificar manualmente contra los lineamientos del Tec Laguna."
+      },
+      {
+        "tipo": "requisitoEspecial",
+        "codigoOriginal": "S1S",
+        "descripcion": "Código \"S1S\" en la columna Requisitos de R19 (RESIDENCIA) no corresponde a ninguna clave de materia del catálogo. Probablemente se refiera a avance crediticio y/o servicio social (típico para Residencia Profesional). Verificar manualmente contra los lineamientos del Tec Laguna."
+      }
+    ]
+  }
+]
