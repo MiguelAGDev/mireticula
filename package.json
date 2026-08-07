@@ -1,0 +1,15 @@
+{
+  "name": "mi-reticula",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "import": "npm run start --workspace=packages/importer"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

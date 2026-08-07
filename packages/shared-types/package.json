@@ -1,0 +1,9 @@
+{
+  "name": "@mi-reticula/shared-types",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tipos compartidos entre frontend y backend: Materia, Horario, Restriccion, etc. Sin lógica, solo definiciones.",
+  "main": "src/index.ts",
+  "types": "src/index.ts"
+}
