@@ -1,8 +1,14 @@
+// Author: MiguelAGDev
+// Date: 2026-08-06
+// Description: Config de TypeScript para packages/importer (CLI de Node).
+
+// Last Update: 2026-08-06
+// Description: Encabezado inicial, sin cambios de contenido.
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src"
   },
-  "include": ["src"]
+  "include": [ "src" ]
 }

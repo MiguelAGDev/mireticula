@@ -1,3 +1,10 @@
+# Author: MiguelAGDev
+# Date: 2026-08-06
+# Description: Archivos y carpetas que Git debe ignorar en todo el repo.
+
+# Last Update: 2026-08-06
+# Description: Encabezado inicial, sin cambios de contenido.
+
 # Logs
 logs
 *.log

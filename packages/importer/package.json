@@ -1,4 +1,8 @@
 {
+  "author": "MiguelAGDev",
+  "x-date": "2026-08-06",
+  "x-lastUpdate": "2026-08-06",
+  "x-lastUpdateDescription": "Encabezado inicial, sin cambios de contenido.",
   "name": "@mi-reticula/importer",
   "version": "0.1.0",
   "private": true,

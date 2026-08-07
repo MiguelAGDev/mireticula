@@ -1,6 +1,12 @@
-// Transforma las filas crudas del Excel (RawRow) en el modelo de dominio
-// que packages/schedule-engine y apps/backend consumen: materias,
-// profesores, grupos y prerrequisitos/requisitos.
+// Author: MiguelAGDev
+// Date: 2026-08-06
+// Description: Transforma las filas crudas del Excel (RawRow) en el
+// modelo de dominio que packages/schedule-engine y apps/backend
+// consumen: materias, profesores, grupos y prerrequisitos/requisitos.
+
+// Last Update: 2026-08-06
+// Description: Encabezado inicial y espaciado de paréntesis/llaves/
+// corchetes según la convención de CLAUDE.md.
 
 import type {
   Carrera,
@@ -31,14 +37,14 @@ const ID_CARRERA_ISC = "ISC";
 const NOMBRE_CARRERA_ISC = "Ingeniería en Sistemas Computacionales";
 
 /** Quita acentos/diacríticos y produce un slug estable en minúsculas. */
-function slugify(texto: string): string {
+function slugify( texto: string ): string {
   return texto
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
+    .normalize( "NFD" )
+    .replace( /[̀-ͯ]/g, "" )
     .trim()
     .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
+    .replace( /[^a-z0-9]+/g, "-" )
+    .replace( /(^-|-$)/g, "" );
 }
 
 /**
@@ -48,7 +54,7 @@ function slugify(texto: string): string {
  * el catálogo oficial de servicio social / residencias del Tec Laguna, así
  * que se documenta como hipótesis y debe confirmarse manualmente.
  */
-function describirRequisitoEspecial(codigo: string, materiaClave: string, materiaNombre: string): string {
+function describirRequisitoEspecial( codigo: string, materiaClave: string, materiaNombre: string ): string {
   return (
     `Código "${codigo}" en la columna Requisitos de ${materiaClave} (${materiaNombre}) ` +
     `no corresponde a ninguna clave de materia del catálogo. Probablemente se refiera a ` +
@@ -57,101 +63,101 @@ function describirRequisitoEspecial(codigo: string, materiaClave: string, materi
   );
 }
 
-export function construirModelo(filas: RawRow[]): ModeloImportado {
-  const clavesValidas = new Set(filas.map((f) => f.clave));
+export function construirModelo( filas: RawRow[] ): ModeloImportado {
+  const clavesValidas = new Set( filas.map( ( f ) => f.clave ) );
 
   // ---- materias.json ----
   const materiasPorClave = new Map<string, Materia>();
-  for (const fila of filas) {
-    if (!materiasPorClave.has(fila.clave)) {
-      materiasPorClave.set(fila.clave, {
+  for ( const fila of filas ) {
+    if ( !materiasPorClave.has( fila.clave ) ) {
+      materiasPorClave.set( fila.clave, {
         clave: fila.clave,
         nombre: fila.materia,
         creditos: null, // no vienen en este Excel; completar con la retícula oficial
         semestre: null, // no vienen en este Excel; completar con la retícula oficial
-      });
+      } );
     }
   }
-  const materias = [...materiasPorClave.values()].sort((a, b) => a.clave.localeCompare(b.clave));
+  const materias = [ ...materiasPorClave.values() ].sort( ( a, b ) => a.clave.localeCompare( b.clave ) );
 
   // ---- profesores.json ----
   const profesoresPorId = new Map<string, Profesor>();
-  for (const fila of filas) {
-    if (fila.catedratico === "MAESTRO POR ASIGNAR") continue;
-    const id = slugify(fila.catedratico);
-    if (!profesoresPorId.has(id)) {
-      profesoresPorId.set(id, { id, nombre: fila.catedratico });
+  for ( const fila of filas ) {
+    if ( fila.catedratico === "MAESTRO POR ASIGNAR" ) continue;
+    const id = slugify( fila.catedratico );
+    if ( !profesoresPorId.has( id ) ) {
+      profesoresPorId.set( id, { id, nombre: fila.catedratico } );
     }
   }
-  const profesores = [...profesoresPorId.values()].sort((a, b) => a.nombre.localeCompare(b.nombre));
+  const profesores = [ ...profesoresPorId.values() ].sort( ( a, b ) => a.nombre.localeCompare( b.nombre ) );
 
   // ---- grupos.json ----
-  const grupos: Grupo[] = filas.map((fila) => ({
+  const grupos: Grupo[] = filas.map( ( fila ) => ( {
     materiaClave: fila.clave,
     grupo: fila.grupo,
-    profesorId: fila.catedratico === "MAESTRO POR ASIGNAR" ? null : slugify(fila.catedratico),
+    profesorId: fila.catedratico === "MAESTRO POR ASIGNAR" ? null : slugify( fila.catedratico ),
     sesiones: fila.sesiones,
     porcentajeCreditosNecesario: fila.porcentajeNecesario,
-  }));
+  } ) );
 
   // ---- prerrequisitos.json ----
   let totalRequisitosEspeciales = 0;
   const prerrequisitos: PrerrequisitosMateria[] = [];
 
-  for (const fila of filas) {
+  for ( const fila of filas ) {
     // Requisitos/Correquisitos/porcentajeNecesario son iguales para todas
     // las filas (grupos) de una misma clave, así que basta procesar cada
     // materia una vez (la primera fila en la que aparece).
-    if (fila !== filas.find((f) => f.clave === fila.clave)) continue;
+    if ( fila !== filas.find( ( f ) => f.clave === fila.clave ) ) continue;
 
     const requisitos: Requisito[] = [];
 
-    if (fila.requisitos) {
-      for (const token of fila.requisitos.split(/\s+/).filter(Boolean)) {
-        if (clavesValidas.has(token)) {
-          requisitos.push({ tipo: "prerrequisito", clave: token });
+    if ( fila.requisitos ) {
+      for ( const token of fila.requisitos.split( /\s+/ ).filter( Boolean ) ) {
+        if ( clavesValidas.has( token ) ) {
+          requisitos.push( { tipo: "prerrequisito", clave: token } );
         } else {
-          requisitos.push({
+          requisitos.push( {
             tipo: "requisitoEspecial",
             codigoOriginal: token,
-            descripcion: describirRequisitoEspecial(token, fila.clave, fila.materia),
-          });
+            descripcion: describirRequisitoEspecial( token, fila.clave, fila.materia ),
+          } );
           totalRequisitosEspeciales++;
         }
       }
     }
 
-    if (fila.correquisitos) {
-      for (const token of fila.correquisitos.split(/\s+/).filter(Boolean)) {
-        if (clavesValidas.has(token)) {
-          requisitos.push({ tipo: "correquisito", clave: token });
+    if ( fila.correquisitos ) {
+      for ( const token of fila.correquisitos.split( /\s+/ ).filter( Boolean ) ) {
+        if ( clavesValidas.has( token ) ) {
+          requisitos.push( { tipo: "correquisito", clave: token } );
         } else {
-          requisitos.push({
+          requisitos.push( {
             tipo: "requisitoEspecial",
             codigoOriginal: token,
-            descripcion: describirRequisitoEspecial(token, fila.clave, fila.materia),
-          });
+            descripcion: describirRequisitoEspecial( token, fila.clave, fila.materia ),
+          } );
           totalRequisitosEspeciales++;
         }
       }
     }
 
-    if (fila.porcentajeNecesario > 0) {
-      requisitos.push({ tipo: "porcentajeCreditos", porcentaje: fila.porcentajeNecesario });
+    if ( fila.porcentajeNecesario > 0 ) {
+      requisitos.push( { tipo: "porcentajeCreditos", porcentaje: fila.porcentajeNecesario } );
     }
 
-    if (requisitos.length > 0) {
-      prerrequisitos.push({ materiaClave: fila.clave, requisitos });
+    if ( requisitos.length > 0 ) {
+      prerrequisitos.push( { materiaClave: fila.clave, requisitos } );
     }
   }
-  prerrequisitos.sort((a, b) => a.materiaClave.localeCompare(b.materiaClave));
+  prerrequisitos.sort( ( a, b ) => a.materiaClave.localeCompare( b.materiaClave ) );
 
   // ---- carreras.json ----
   const carreras: Carrera[] = [
     {
       id: ID_CARRERA_ISC,
       nombre: NOMBRE_CARRERA_ISC,
-      materias: materias.map((m) => m.clave),
+      materias: materias.map( ( m ) => m.clave ),
     },
   ];
 
@@ -171,6 +177,6 @@ export function construirModelo(filas: RawRow[]): ModeloImportado {
 }
 
 /** Mapa clave -> nombre de materia, usado por json-writer para anotar comentarios. */
-export function nombrePorClaveDesdeMateria(materias: Materia[]): Map<string, string> {
-  return new Map(materias.map((m) => [m.clave, m.nombre]));
+export function nombrePorClaveDesdeMateria( materias: Materia[] ): Map<string, string> {
+  return new Map( materias.map( ( m ) => [ m.clave, m.nombre ] ) );
 }

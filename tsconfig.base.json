@@ -1,3 +1,10 @@
+// Author: MiguelAGDev
+// Date: 2026-08-06
+// Description: Opciones de TypeScript comunes a todo el monorepo. Cada
+// package/app tiene su propio tsconfig.json que hace "extends" de este.
+
+// Last Update: 2026-08-06
+// Description: Encabezado inicial, sin cambios de contenido.
 {
   "compilerOptions": {
     "target": "ES2022",

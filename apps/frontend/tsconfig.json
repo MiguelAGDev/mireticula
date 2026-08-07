@@ -1,0 +1,19 @@
+// Author: MiguelAGDev
+// Date: 2026-08-06
+// Description: Config de TypeScript para el código de la app (src/) que
+// corre en el navegador. vite.config.ts usa tsconfig.node.json aparte.
+
+// Last Update: 2026-08-06
+// Description: Encabezado inicial y espaciado de corchetes según la
+// convención de CLAUDE.md.
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [ "ES2022", "DOM", "DOM.Iterable" ],
+    "jsx": "react-jsx",
+    "moduleDetection": "force",
+    "noEmit": true
+  },
+  "include": [ "src" ],
+  "references": [ { "path": "./tsconfig.node.json" } ]
+}

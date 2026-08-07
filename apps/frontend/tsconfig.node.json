@@ -1,0 +1,18 @@
+// Author: MiguelAGDev
+// Date: 2026-08-06
+// Description: Config de TypeScript solo para vite.config.ts, que corre
+// en Node (no en el navegador) y por eso necesita libs/tipos distintos
+// al resto del frontend.
+
+// Last Update: 2026-08-06
+// Description: Encabezado inicial y espaciado de corchetes según la
+// convención de CLAUDE.md.
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [ "ES2022" ],
+    "noEmit": true,
+    "types": [ "node" ]
+  },
+  "include": [ "vite.config.ts" ]
+}
