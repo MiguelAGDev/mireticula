@@ -4,8 +4,9 @@
 // (JSX + Fast Refresh), plugin de Tailwind v4, y el alias "@" -> src/.
 
 // Last Update: 2026-08-08
-// Description: Se agregó server.proxy: en dev, /api/* se reenvía al
-// backend (localhost:3001) — así el frontend solo hace fetch("/api/...")
+// Description: server.proxy: en dev, /api/* se reenvía al backend
+// (localhost:3010 — cambiado de 3001 porque un proceso huérfano se quedó
+// pegado en ese puerto) — así el frontend solo hace fetch("/api/...")
 // sin preocuparse por CORS ni hardcodear el host.
 
 import path             from "node:path";
@@ -23,7 +24,7 @@ export default defineConfig( {
   },
   server: {
     proxy: {
-      "/api": "http://localhost:3001",
+      "/api": "http://localhost:3010",
     },
   },
 } );
