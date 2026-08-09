@@ -3,20 +3,19 @@
 // Description: Generado automáticamente por packages/importer. No editar a mano.
 //
 // Last Update: 2026-08-08
-// Description: `semestre` se llenó a mano leyendo la imagen de la retícula
-// oficial que compartió el usuario, cruzando cada clave contra su columna
-// (I-VIII = semestre 1-8). Es una lectura manual de una imagen, NO un
-// dato que venga del Excel — verificar contra la retícula oficial real,
-// sobre todo el semestre de 11D/21D/31D/41D/51D/61D (electivas de los
-// últimos semestres, la posición exacta en la imagen era menos clara que
-// el resto). `creditos` sigue en null a propósito: la imagen los muestra
-// como "horas teoría-horas práctica-créditos" (ej. "3-2-5") y no hay
-// certeza suficiente para transcribir los 54 valores sin verificarlos —
-// mejor dejarlo explícito en null que adivinar un número que se vea
-// autoritativo sin serlo. R19 (RESIDENCIA) y T11 (TUTORIA) se dejan sin
-// semestre a propósito: no aparecen como recuadro en la retícula oficial
-// (son residencia/actividad complementaria), así que la pantalla de
-// Retícula interactiva los excluye.
+// Description: `semestre` (1-9) confirmado contra el documento oficial
+// "PLAN RETICULAR INGENIERÍA EN SISTEMAS COMPUTACIONALES" (ISIC-2010-224
+// / especialidad ISIE-TDS-2024-01) que compartió el usuario — reemplaza
+// una primera lectura manual (de otra imagen, menos detallada) que tenía
+// varios semestres mal. Semestre IX (51D, 61D) es nuevo — antes la
+// retícula solo llegaba a VIII. `creditos` sigue en null a propósito: la
+// imagen los muestra como "horas teoría-horas práctica-créditos" (ej.
+// "3-2-5") y no hay certeza suficiente para transcribir los 54 valores
+// sin verificarlos. R19 (RESIDENCIA) y T11 (TUTORIA) se dejan sin
+// semestre a propósito — Residencia Profesional, Servicio Social y
+// Actividades Complementarias se excluyen explícitamente del sistema
+// (no se cursan como materia con grupo/horario), así que la pantalla de
+// Retícula interactiva y el generador de horarios las ignoran.
 // materias.json — catálogo de materias de la oferta académica importada.
 // IMPORTANTE: `creditos` NO viene en dataset_mireticula.xlsx, queda en
 // null. Debe completarse manualmente cruzando contra la retícula oficial
@@ -38,25 +37,25 @@
     "clave": "31D",
     "nombre": "DESARROLLO DE APLICACIONES EN IOS",
     "creditos": null,
-    "semestre": 7
+    "semestre": 8
   },
   {
     "clave": "41D",
     "nombre": "ARQUITECTURA DE SERVICIOS EN LA NUBE",
     "creditos": null,
-    "semestre": 7
+    "semestre": 8
   },
   {
     "clave": "51D",
     "nombre": "ANALISIS DE DATOS Y MACHINE LEARNING",
     "creditos": null,
-    "semestre": 8
+    "semestre": 9
   },
   {
     "clave": "61D",
     "nombre": "DESARROLLO WEB FULL STACK 2",
     "creditos": null,
-    "semestre": 8
+    "semestre": 9
   },
   {
     "clave": "A11",
@@ -104,7 +103,7 @@
     "clave": "A18",
     "nombre": "PROGRAMACION LOGICA Y FUNCIONAL",
     "creditos": null,
-    "semestre": 8
+    "semestre": 7
   },
   {
     "clave": "B11",
@@ -134,7 +133,7 @@
     "clave": "B15",
     "nombre": "FUNDAMENTOS DE INGENIERIA DE SOFTWARE",
     "creditos": null,
-    "semestre": 5
+    "semestre": 4
   },
   {
     "clave": "B16",
@@ -176,31 +175,31 @@
     "clave": "C14",
     "nombre": "FUNDAMENTOS DE BASES DE DATOS",
     "creditos": null,
-    "semestre": 4
+    "semestre": 3
   },
   {
     "clave": "C15",
     "nombre": "TALLER DE BASE DE DATOS",
     "creditos": null,
-    "semestre": 5
+    "semestre": 4
   },
   {
     "clave": "C16",
     "nombre": "ADMINISTRACION DE BASE DE DATOS",
     "creditos": null,
-    "semestre": 6
+    "semestre": 8
   },
   {
     "clave": "C17",
     "nombre": "GRAFICACION",
     "creditos": null,
-    "semestre": 7
+    "semestre": 5
   },
   {
     "clave": "C18",
     "nombre": "CULTURA EMPRESARIAL",
     "creditos": null,
-    "semestre": 8
+    "semestre": 6
   },
   {
     "clave": "D11",
@@ -224,7 +223,7 @@
     "clave": "D16",
     "nombre": "SIMULACION",
     "creditos": null,
-    "semestre": 6
+    "semestre": 4
   },
   {
     "clave": "E11",
@@ -242,13 +241,13 @@
     "clave": "E13",
     "nombre": "SISTEMAS OPERATIVOS",
     "creditos": null,
-    "semestre": 3
+    "semestre": 5
   },
   {
     "clave": "E14",
     "nombre": "TALLER DE SISTEMAS OPERATIVOS",
     "creditos": null,
-    "semestre": 4
+    "semestre": 6
   },
   {
     "clave": "E15",
@@ -314,7 +313,7 @@
     "clave": "F17",
     "nombre": "PROGRAMACION WEB",
     "creditos": null,
-    "semestre": 7
+    "semestre": 5
   },
   {
     "clave": "F18",
