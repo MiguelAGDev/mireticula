@@ -52,11 +52,41 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
   `tsconfig.*`, `vite.config.ts`) para cumplirlas.
 - **Tiempo invertido:** 20 min
 
+## 2026-08-08
+
+### `shared-types` — recreación de `src/index.ts`
+- **Descripción:** el archivo se había borrado; se volvió a mostrar el
+  contenido completo en el chat (explicado línea por línea) y se creó
+  solo tras confirmación explícita del usuario.
+- **Tiempo invertido:** 10 min
+
+### Frontend — Paso 4: `index.html`
+- **Descripción:** punto de entrada HTML que usa Vite: `<div id="root">`
+  donde React monta la app, y `<script type="module" src="/src/main.tsx">`
+  que carga el TSX fuente directo (Vite lo compila al vuelo en dev).
+- **Tiempo invertido:** 5 min
+
+### Frontend — Paso 5: `src/index.css`
+- **Descripción:** único CSS del proyecto: `@import "tailwindcss";`
+  (Tailwind v4, sin `tailwind.config.js` ni `postcss.config.js` aparte —
+  lo resuelve el plugin de Vite del Paso 3).
+- **Tiempo invertido:** 5 min
+
+### Frontend — Pasos 6–8: arranque de React y Pantalla de Inicio
+- **Descripción:** `src/main.tsx` (monta `<App />` en el `#root` de
+  `index.html`), `src/App.tsx` (raíz, hoy solo renderiza `Inicio`) y
+  `src/pages/Inicio.tsx` (bienvenida + botón "Comenzar", sin navegación
+  funcional todavía). Se corrigió `tsconfig.node.json` (le faltaba
+  `"composite": true`, lo exige `tsc -b`) y se verificó con
+  `npm run build --workspace=apps/frontend` y `--workspace=packages/importer`
+  que todo compila.
+- **Tiempo invertido:** 20 min
+
 ---
 
 ## Tiempo total invertido
 
-**1h 20min**
+**2h 00min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando

@@ -4,14 +4,14 @@
 // en Node (no en el navegador) y por eso necesita libs/tipos distintos
 // al resto del frontend.
 
-// Last Update: 2026-08-06
-// Description: Encabezado inicial y espaciado de corchetes según la
-// convención de CLAUDE.md.
+// Last Update: 2026-08-08
+// Description: Se agregó "composite": true — lo exige tsc -b para poder
+// referenciar este tsconfig desde tsconfig.json (project references).
 {
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
+    "composite": true,
     "lib": [ "ES2022" ],
-    "noEmit": true,
     "types": [ "node" ]
   },
   "include": [ "vite.config.ts" ]

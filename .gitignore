@@ -149,6 +149,12 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
 
+# tsc -b emite vite.config.js/.d.ts junto a vite.config.ts porque
+# tsconfig.node.json es composite; el fuente real es el .ts.
+vite.config.js
+vite.config.d.ts
+vite.config.d.ts.map
+
 
 # Data set
 *.xlsx
