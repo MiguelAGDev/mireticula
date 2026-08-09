@@ -284,11 +284,27 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
     limpio en los 4 workspaces.
 - **Tiempo invertido:** 1h 15min
 
+### `materias.jsonc` — `creditos` llenado (bug real destapado en uso real)
+- **Descripción:** el usuario probó la retícula aprobando semestres I-VI
+  y las materias de especialidad (60% créditos) seguían bloqueadas.
+  Causa raíz: `creditos` estaba en `null` en las 54 materias, así que
+  `creditosTotalPlan` sumaba 0 y la fracción del requisito
+  `porcentajeCreditos` daba 0% siempre, sin importar cuánto se aprobara —
+  no era un bug de lógica, era la consecuencia directa del hueco de datos
+  que ya se había dejado documentado. Se llenó `creditos` a mano desde la
+  imagen oficial (formato "T-P-C", se usa el crédito). ⚠️ Menos confiable
+  que `semestre` (no hay con qué cruzarlo): suma 241 para semestres I-VIII
+  contra ~235 que muestra el resumen de la imagen — puede haber 2-3
+  materias con el número real distinto. Verificado con el mismo escenario
+  de la captura del usuario (semestres I-VI aprobados): 72.2%, desbloquea
+  A18/C16 correctamente. `npm run build` limpio.
+- **Tiempo invertido:** 25 min
+
 ---
 
 ## Tiempo total invertido
 
-**11h 45min**
+**12h 10min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando

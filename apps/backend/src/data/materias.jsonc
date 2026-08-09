@@ -3,12 +3,22 @@
 // Description: Generado automáticamente por packages/importer. No editar a mano.
 //
 // Last Update: 2026-08-09
-// Description: Regenerado desde el portal oficial de horarios (apps2.itlalaguna.edu.mx/horarios),
-// que reemplazó a dataset_mireticula.xlsx como fuente — el Excel se venía corrompiendo al
-// editarlo a mano (encabezados desfasados, Requisitos/Correquisitos invertidos). Después de
-// regenerar, se restauró `semestre` desde el respaldo previo (el importer siempre lo deja en
-// null, no viene de ninguna fuente automática) — confirmado contra el documento oficial
-// ISIC-2010-224/ISIE-TDS-2024-01. `creditos` sigue en null, sigue sin fuente confiable.
+// Description: `creditos` se llenó a mano leyendo la imagen oficial de la
+// retícula (formato "horas teoría-horas práctica-créditos", se usa el
+// último número). Sin esto, el requisito de "60% de créditos" de las
+// materias de especialidad (11D/21D/31D/41D/51D/61D/A18/C16) nunca podía
+// cumplirse — creditosTotalPlan sumaba 0 con todo en null, así que la
+// fracción siempre daba 0% sin importar cuántas materias se aprobaran.
+// ⚠️ MENOS CONFIABLE que `semestre`: `semestre` se cruzó contra
+// prerrequisitos reales del Excel, `creditos` no tiene con qué cruzarse.
+// Suma total semestres I-VIII: 241 (el resumen de la imagen oficial
+// mostraba ~235 para estructura genérica + especialidad) — puede haber
+// 2-3 materias con el número real distinto; verificar si algo se ve mal.
+// (Antes de esto: regenerado desde el portal oficial de horarios,
+// apps2.itlalaguna.edu.mx/horarios, que reemplazó a
+// dataset_mireticula.xlsx como fuente tras corromperse dos veces al
+// editarlo a mano; `semestre` restaurado desde respaldo, confirmado
+// contra ISIC-2010-224/ISIE-TDS-2024-01.)
 //
 // materias.json — catálogo de materias de la oferta académica importada.
 // R19 (RESIDENCIA) y T11 (TUTORIA) se dejan sin semestre a propósito — no son materias con
@@ -17,313 +27,313 @@
   {
     "clave": "11D",
     "nombre": "DESARROLLO WEB FULL STACK 1",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 7
   },
   {
     "clave": "21D",
     "nombre": "DESARROLLO DE APLICACIONES EN ANDROID",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 7
   },
   {
     "clave": "31D",
     "nombre": "DESARROLLO DE APLICACIONES EN IOS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 8
   },
   {
     "clave": "41D",
     "nombre": "ARQUITECTURA DE SERVICIOS EN LA NUBE",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 8
   },
   {
     "clave": "51D",
     "nombre": "ANALISIS DE DATOS Y MACHINE LEARNING",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 9
   },
   {
     "clave": "61D",
     "nombre": "DESARROLLO WEB FULL STACK 2",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 9
   },
   {
     "clave": "A11",
     "nombre": "CALCULO DIFERENCIAL",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 1
   },
   {
     "clave": "A12",
     "nombre": "CALCULO INTEGRAL",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 2
   },
   {
     "clave": "A13",
     "nombre": "CALCULO VECTORIAL",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 3
   },
   {
     "clave": "A14",
     "nombre": "ECUACIONES DIFERENCIALES",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 4
   },
   {
     "clave": "A15",
     "nombre": "METODOS NUMERICOS",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 5
   },
   {
     "clave": "A16",
     "nombre": "LENGUAJES Y AUTOMATAS I",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 6
   },
   {
     "clave": "A17",
     "nombre": "LENGUAJES Y AUTOMATAS II",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 7
   },
   {
     "clave": "A18",
     "nombre": "PROGRAMACION LOGICA Y FUNCIONAL",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 7
   },
   {
     "clave": "B11",
     "nombre": "FUNDAMENTOS DE PROGRAMACION",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 1
   },
   {
     "clave": "B12",
     "nombre": "PROGRAMACION ORIENTADA A OBJETOS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 2
   },
   {
     "clave": "B13",
     "nombre": "ESTRUCTURA DE DATOS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 3
   },
   {
     "clave": "B14",
     "nombre": "TOPICOS AVANZADOS DE PROGRAMACION",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 4
   },
   {
     "clave": "B15",
     "nombre": "FUNDAMENTOS DE INGENIERIA DE SOFTWARE",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 4
   },
   {
     "clave": "B16",
     "nombre": "INGENIERIA DE SOFTWARE",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 6
   },
   {
     "clave": "B17",
     "nombre": "GESTION DE PROYECTOS DE SOFTWARE",
-    "creditos": null,
+    "creditos": 6,
     "semestre": 7
   },
   {
     "clave": "B18",
     "nombre": "INTELIGENCIA ARTIFICIAL",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 8
   },
   {
     "clave": "C11",
     "nombre": "TALLER DE ETICA",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 1
   },
   {
     "clave": "C12",
     "nombre": "DESARROLLO SUSTENTABLE",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 2
   },
   {
     "clave": "C13",
     "nombre": "CONTABILIDAD FINANCIERA",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 3
   },
   {
     "clave": "C14",
     "nombre": "FUNDAMENTOS DE BASES DE DATOS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 3
   },
   {
     "clave": "C15",
     "nombre": "TALLER DE BASE DE DATOS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 4
   },
   {
     "clave": "C16",
     "nombre": "ADMINISTRACION DE BASE DE DATOS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 8
   },
   {
     "clave": "C17",
     "nombre": "GRAFICACION",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 5
   },
   {
     "clave": "C18",
     "nombre": "CULTURA EMPRESARIAL",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 6
   },
   {
     "clave": "D11",
     "nombre": "MATEMATICAS DISCRETAS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 1
   },
   {
     "clave": "D12",
     "nombre": "QUIMICA",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 2
   },
   {
     "clave": "D13",
     "nombre": "INVESTIGACION DE OPERACIONES",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 3
   },
   {
     "clave": "D16",
     "nombre": "SIMULACION",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 4
   },
   {
     "clave": "E11",
     "nombre": "TALLER DE ADMINISTRACION",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 1
   },
   {
     "clave": "E12",
     "nombre": "ALGEBRA LINEAL",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 2
   },
   {
     "clave": "E13",
     "nombre": "SISTEMAS OPERATIVOS",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 5
   },
   {
     "clave": "E14",
     "nombre": "TALLER DE SISTEMAS OPERATIVOS",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 6
   },
   {
     "clave": "E15",
     "nombre": "FUNDAMENTOS DE TELECOMUNICACIONES",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 5
   },
   {
     "clave": "E16",
     "nombre": "REDES DE COMPUTADORAS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 6
   },
   {
     "clave": "E17",
     "nombre": "CONMUTACION Y ENRUTAMIENTO EN REDES DE DATOS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 7
   },
   {
     "clave": "E18",
     "nombre": "ADMINISTRACION DE REDES",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 8
   },
   {
     "clave": "F11",
     "nombre": "FUNDAMENTOS DE INVESTIGACION",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 1
   },
   {
     "clave": "F12",
     "nombre": "PROBABILIDAD Y ESTADISTICA",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 2
   },
   {
     "clave": "F13",
     "nombre": "FISICA GENERAL",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 3
   },
   {
     "clave": "F14",
     "nombre": "PRINCIPIOS ELECTRICOS Y APLICACIONES DIGITALES",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 4
   },
   {
     "clave": "F15",
     "nombre": "ARQUITECTURA DE COMPUTADORAS",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 5
   },
   {
     "clave": "F16",
     "nombre": "LENGUAJES DE INTERFAZ",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 6
   },
   {
     "clave": "F17",
     "nombre": "PROGRAMACION WEB",
-    "creditos": null,
+    "creditos": 5,
     "semestre": 5
   },
   {
     "clave": "F18",
     "nombre": "SISTEMAS PROGRAMABLES",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 8
   },
   {
     "clave": "G15",
     "nombre": "TALLER DE INVESTIGACION I",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 5
   },
   {
     "clave": "G16",
     "nombre": "TALLER DE INVESTIGACION II",
-    "creditos": null,
+    "creditos": 4,
     "semestre": 6
   },
   {
