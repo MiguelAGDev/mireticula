@@ -111,11 +111,30 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
   - `npm run build` limpio en `schedule-engine`, `importer` y `frontend`.
 - **Tiempo invertido:** 55 min
 
+### `apps/backend` — Fase 2 (Express delgado)
+- **Descripción:** servidor Express que carga los `.jsonc` de
+  `apps/backend/src/data` (con un parser propio que quita los
+  comentarios que agrega el importer) y expone 3 endpoints, todos
+  delgados — la lógica real vive en `schedule-engine`:
+  - `GET /api/carreras` — catálogo de carreras.
+  - `GET /api/materias?carreraId=&aprobadas=` — estado de cada materia
+    (retícula interactiva), vía `resolverEstadoMaterias`.
+  - `POST /api/horarios` — valida que las materias pedidas estén
+    "disponible", genera combinaciones con `generarHorarios`, las
+    puntúa con `puntuarHorario` y las regresa ordenadas de mayor a
+    menor puntuación (o la explicación si no hubo resultados).
+  - Se probaron los 3 endpoints en caliente contra los datos reales
+    (`curl`): desbloqueo de materias al marcar una aprobada, generación
+    de horarios con preferencias, y los dos casos de error (materia
+    inexistente, arreglo vacío).
+  - `npm run build --workspace=apps/backend` limpio.
+- **Tiempo invertido:** 45 min
+
 ---
 
 ## Tiempo total invertido
 
-**3h 10min**
+**3h 55min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando

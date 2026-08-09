@@ -162,3 +162,6 @@ vite.config.d.ts.map
 # Context
 CLAUDE.md
 
+# Configuración local de Claude Code, no del proyecto
+.claude/
+

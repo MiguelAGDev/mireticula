@@ -1,0 +1,15 @@
+// Author: MiguelAGDev
+// Date: 2026-08-08
+// Description: Config de TypeScript para apps/backend (Node + Express).
+
+// Last Update: 2026-08-08
+// Description: Encabezado inicial, sin cambios de contenido.
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "types": [ "node" ]
+  },
+  "include": [ "src" ]
+}
