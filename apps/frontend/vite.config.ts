@@ -3,9 +3,10 @@
 // Description: Configuración de Vite para el frontend: plugin de React
 // (JSX + Fast Refresh), plugin de Tailwind v4, y el alias "@" -> src/.
 
-// Last Update: 2026-08-06
-// Description: Encabezado inicial, espaciado de paréntesis/llaves y
-// alineación de imports según la convención de CLAUDE.md.
+// Last Update: 2026-08-08
+// Description: Se agregó server.proxy: en dev, /api/* se reenvía al
+// backend (localhost:3001) — así el frontend solo hace fetch("/api/...")
+// sin preocuparse por CORS ni hardcodear el host.
 
 import path             from "node:path";
 import { defineConfig } from "vite";
@@ -18,6 +19,11 @@ export default defineConfig( {
   resolve: {
     alias: {
       "@": path.resolve( __dirname, "./src" ),
+    },
+  },
+  server: {
+    proxy: {
+      "/api": "http://localhost:3001",
     },
   },
 } );
