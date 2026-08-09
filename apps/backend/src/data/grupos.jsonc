@@ -1,9 +1,10 @@
 // Author: MiguelAGDev
-// Date: 2026-08-06
+// Date: 2026-08-09
 // Description: Generado automáticamente por packages/importer. No editar a mano.
 //
-// Last Update: 2026-08-06
+// Last Update: 2026-08-09
 // Description: Regenerado desde dataset_mireticula.xlsx.
+//
 // grupos.json — oferta académica: un elemento por grupo de una materia,
 // con sus sesiones semanales (día, hora inicio/fin, aula) y el % de
 // créditos del plan necesario para inscribirlo (porcentajeCreditosNecesario, 0 = no aplica).
@@ -15,33 +16,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19L"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19L"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19J"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19J"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "19L",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19L"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -53,33 +54,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19K",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19K"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "19K",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19K"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19K",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19K"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "19K",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19K"
+        "horaFin": "16:00"
       },
       {
         "dia": "viernes",
+        "aula": "19K",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19K"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -91,27 +92,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA3",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA3"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "AA3",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA3"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA3",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA3"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA3",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA3"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -123,27 +124,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA7"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA7"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA7"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA7"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -155,33 +156,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "CB3",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "CB3"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "CB3",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "CB3"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "CB3",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "CB3"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "CB3",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "CB3"
+        "horaFin": "10:00"
       },
       {
         "dia": "viernes",
+        "aula": "CB3",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "CB3"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -193,33 +194,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19C"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19C"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19C"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19C"
+        "horaFin": "17:00"
       },
       {
         "dia": "viernes",
+        "aula": "19C",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19C"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -231,33 +232,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19B",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19B"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19B",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19B"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19B",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19B"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19B",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19B"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "19B",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19B"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -269,33 +270,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19I",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19I"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "19I",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19I"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19I",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19I"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "19I",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19I"
+        "horaFin": "15:00"
       },
       {
         "dia": "viernes",
+        "aula": "19I",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19I"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -307,33 +308,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19M"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19M"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19M"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19M"
+        "horaFin": "09:00"
       },
       {
         "dia": "viernes",
+        "aula": "19M",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19M"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -345,33 +346,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19K",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19K"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19K",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19K"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19K",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19K"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19K",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19K"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "19K",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19K"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -383,33 +384,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19C"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19C"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19C"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19C"
+        "horaFin": "10:00"
       },
       {
         "dia": "viernes",
+        "aula": "19C",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19C"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -421,33 +422,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA4",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA4"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "AA4",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA4"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA4",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA4"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA4",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA4"
+        "horaFin": "15:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA4",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA4"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -459,33 +460,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19H",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19H"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "19H",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19H"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19H",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19H"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "19H",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19H"
+        "horaFin": "17:00"
       },
       {
         "dia": "viernes",
+        "aula": "19H",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19H"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -497,33 +498,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA6",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA6"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "AA6",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA6"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA6",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA6"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA6",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA6"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA6",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA6"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -535,33 +536,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19L"
+        "horaFin": "19:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19L"
+        "horaFin": "19:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19L"
+        "horaFin": "19:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19L"
+        "horaFin": "19:00"
       },
       {
         "dia": "viernes",
+        "aula": "19L",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19L"
+        "horaFin": "19:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -573,33 +574,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19G",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19G"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19G",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19G"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19G",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19G"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19G",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19G"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "19G",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19G"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -611,33 +612,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19C"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19C"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19C"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19C"
+        "horaFin": "09:00"
       },
       {
         "dia": "viernes",
+        "aula": "19C",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19C"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -649,33 +650,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19C"
+        "horaFin": "19:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19C"
+        "horaFin": "19:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19C"
+        "horaFin": "19:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19C"
+        "horaFin": "19:00"
       },
       {
         "dia": "viernes",
+        "aula": "19C",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19C"
+        "horaFin": "19:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -687,33 +688,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19D"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19D"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19D",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19D"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "19D",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19D"
+        "horaFin": "09:00"
       },
       {
         "dia": "viernes",
+        "aula": "19D",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19D"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -725,33 +726,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19I",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19I"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "19I",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19I"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19I",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19I"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "19I",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19I"
+        "horaFin": "12:00"
       },
       {
         "dia": "viernes",
+        "aula": "19I",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19I"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -763,33 +764,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19C"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19C"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19C"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19C"
+        "horaFin": "18:00"
       },
       {
         "dia": "viernes",
+        "aula": "19C",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19C"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -801,33 +802,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19H",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19H"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "19H",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19H"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19H",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19H"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "19H",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19H"
+        "horaFin": "10:00"
       },
       {
         "dia": "viernes",
+        "aula": "19H",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19H"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -839,33 +840,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19B",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19B"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "19B",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19B"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19B",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19B"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "19B",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19B"
+        "horaFin": "17:00"
       },
       {
         "dia": "viernes",
+        "aula": "19B",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19B"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -877,33 +878,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19B",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19B"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "19B",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19B"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19B",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19B"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "19B",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19B"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "19B",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19B"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -915,33 +916,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19G",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19G"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19G",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19G"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19G",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19G"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19G",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19G"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "19G",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19G"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -953,33 +954,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19B",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19B"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "19B",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19B"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19B",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19B"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "19B",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19B"
+        "horaFin": "12:00"
       },
       {
         "dia": "viernes",
+        "aula": "19B",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19B"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -991,33 +992,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA1",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA1"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "AA1",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA1"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA1",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA1"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA1",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA1"
+        "horaFin": "10:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA1",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA1"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1029,33 +1030,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA1",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA1"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "AA1",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA1"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA1",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA1"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA1",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA1"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA1",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA1"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1067,33 +1068,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19I",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19I"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19I",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19I"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19I",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19I"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19I",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19I"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "MYR",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "MYR"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1105,27 +1106,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19I",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19I"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19I",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19I"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19I",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19I"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19I",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19I"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1137,27 +1138,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19D"
+        "horaFin": "19:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19D"
+        "horaFin": "19:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19D",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19D"
+        "horaFin": "19:00"
       },
       {
         "dia": "jueves",
+        "aula": "19D",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19D"
+        "horaFin": "19:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1169,27 +1170,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19B",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19B"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "19B",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19B"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19B",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19B"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "19B",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19B"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1201,27 +1202,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19J"
+        "horaFin": "08:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19J"
+        "horaFin": "08:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19J"
+        "horaFin": "08:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19J"
+        "horaFin": "08:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1233,27 +1234,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19J"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19J"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19J"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19J"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1265,33 +1266,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA6",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA6"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "AA6",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA6"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA6",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA6"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA6",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA6"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA6",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA6"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -1303,33 +1304,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA6",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA6"
+        "horaFin": "19:00"
       },
       {
         "dia": "martes",
+        "aula": "AA6",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA6"
+        "horaFin": "19:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA6",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA6"
+        "horaFin": "19:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA6",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA6"
+        "horaFin": "19:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA6",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA6"
+        "horaFin": "19:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -1337,37 +1338,37 @@
   {
     "materiaClave": "31D", // DESARROLLO DE APLICACIONES EN IOS
     "grupo": "A",
-    "profesorId": null,
+    "profesorId": "arias-hernandez-lina-ernestina", // ARIAS HERNANDEZ LINA ERNESTINA
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19M"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19M"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19M"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19M"
+        "horaFin": "12:00"
       },
       {
         "dia": "viernes",
+        "aula": "19K",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19K"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -1379,33 +1380,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19K",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19K"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "19K",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19K"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19K",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19K"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "19K",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19K"
+        "horaFin": "18:00"
       },
       {
         "dia": "viernes",
+        "aula": "19K",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19K"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -1417,33 +1418,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19J"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19J"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19J"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19J"
+        "horaFin": "09:00"
       },
       {
         "dia": "viernes",
+        "aula": "19J",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19J"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1455,33 +1456,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19J"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19J"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19J"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19J"
+        "horaFin": "16:00"
       },
       {
         "dia": "viernes",
+        "aula": "19J",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19J"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1493,33 +1494,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA3",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA3"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "AA3",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA3"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA3",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA3"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA3",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA3"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA3",
         "horaInicio": "10:00",
-        "horaFin": "10:00",
-        "aula": "AA3"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1531,33 +1532,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19L"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19L"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19L"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19L"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "19L",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19L"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -1569,33 +1570,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19K",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19K"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "19K",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19K"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19K",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19K"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "19K",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19K"
+        "horaFin": "15:00"
       },
       {
         "dia": "viernes",
+        "aula": "19K",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19K"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -1607,33 +1608,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19K",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19K"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19K",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19K"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19K",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19K"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19K",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19K"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "19K",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19K"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -1645,33 +1646,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19F"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19F",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19F"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19F",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19F"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19F"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "19F",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19F"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1683,33 +1684,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19F"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "19F",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19F"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19F",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19F"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19F"
+        "horaFin": "18:00"
       },
       {
         "dia": "viernes",
+        "aula": "19F",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19F"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1721,33 +1722,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19K",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19K"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "19K",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19K"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19K",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19K"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "19K",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19K"
+        "horaFin": "10:00"
       },
       {
         "dia": "viernes",
+        "aula": "19K",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19K"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1755,37 +1756,37 @@
   {
     "materiaClave": "B13", // ESTRUCTURA DE DATOS
     "grupo": "B",
-    "profesorId": "valdes-alvarado-martin-oswaldo", // VALDES ALVARADO MARTIN OSWALDO
+    "profesorId": null,
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19M"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19M"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19M"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19M"
+        "horaFin": "18:00"
       },
       {
         "dia": "viernes",
+        "aula": "19M",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19M"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1797,33 +1798,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA7"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA7"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA7"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA7"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA7",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA7"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1835,33 +1836,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19D"
+        "horaFin": "08:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19D"
+        "horaFin": "08:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19D",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19D"
+        "horaFin": "08:00"
       },
       {
         "dia": "jueves",
+        "aula": "19D",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19D"
+        "horaFin": "08:00"
       },
       {
         "dia": "viernes",
+        "aula": "19D",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19D"
+        "horaFin": "08:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1873,33 +1874,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19F"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "19F",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19F"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19F",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19F"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19F"
+        "horaFin": "16:00"
       },
       {
         "dia": "viernes",
+        "aula": "19F",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19F"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1911,33 +1912,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19D"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19D"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19D",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19D"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "19D",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19D"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "19D",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19D"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1949,33 +1950,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19J"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19J"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19J"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19J"
+        "horaFin": "15:00"
       },
       {
         "dia": "viernes",
+        "aula": "19J",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19J"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -1987,33 +1988,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19L"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19L"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19L"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19L"
+        "horaFin": "09:00"
       },
       {
         "dia": "viernes",
+        "aula": "19L",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19L"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2025,33 +2026,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA5"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA5"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA5"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA5"
+        "horaFin": "17:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA5",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA5"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2063,33 +2064,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA7"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA7"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA7"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA7"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA7",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA7"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2101,27 +2102,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19F"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "19F",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19F"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19F",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19F"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19F"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2133,27 +2134,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA6",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA6"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "AA6",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA6"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA6",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA6"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA6",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA6"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2165,27 +2166,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19B",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19B"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "19B",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19B"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19B",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19B"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "19B",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19B"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2197,27 +2198,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA1",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA1"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "AA1",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA1"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA2",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA2"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA2",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA2"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2229,27 +2230,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA1",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA1"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "AA1",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA1"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA1",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA1"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA1",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA1"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2261,27 +2262,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19D"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19D"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA1",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA1"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA1",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA1"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2293,33 +2294,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA5"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA5"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA5"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA5"
+        "horaFin": "09:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA5",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA5"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2331,33 +2332,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA2",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA2"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "AA2",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA2"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA2",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA2"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA2",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA2"
+        "horaFin": "15:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA2",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA2"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2369,33 +2370,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA5"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA5"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA5"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA5"
+        "horaFin": "10:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA5",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA5"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2407,33 +2408,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA5"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA5"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA5"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA5"
+        "horaFin": "18:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA5",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA5"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2445,33 +2446,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA7"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA7"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA7"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA7"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA7",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA7"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2483,27 +2484,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA1",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA1"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "AA1",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA1"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA1",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA1"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA1",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA1"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2515,27 +2516,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA7"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA7"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA7"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA7"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2547,33 +2548,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19M"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19M"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19M"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19M"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "19M",
         "horaInicio": "10:00",
-        "horaFin": "12:00",
-        "aula": "19M"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2585,33 +2586,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA6",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA6"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "AA6",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA6"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA6",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA6"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA6",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA6"
+        "horaFin": "18:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA6",
         "horaInicio": "16:00",
-        "horaFin": "18:00",
-        "aula": "AA6"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2619,31 +2620,31 @@
   {
     "materiaClave": "C17", // GRAFICACION
     "grupo": "A",
-    "profesorId": null,
+    "profesorId": "garcia-rosas-francisco-javier", // GARCIA ROSAS FRANCISCO JAVIER
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19K",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19K"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "19K",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19K"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19K",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19K"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "19K",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19K"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2655,27 +2656,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19L"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19L"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19L"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "19L"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2687,33 +2688,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA2",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA2"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "AA2",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA2"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA2",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA2"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA2",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA2"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA2",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA2"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2725,33 +2726,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA7"
+        "horaFin": "19:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA7"
+        "horaFin": "19:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA7"
+        "horaFin": "19:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA7"
+        "horaFin": "19:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA7",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA7"
+        "horaFin": "19:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2763,27 +2764,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19M"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19M"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19M"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19M"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2795,33 +2796,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "19L"
+        "horaFin": "20:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "19L"
+        "horaFin": "20:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "19L"
+        "horaFin": "20:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "19L"
+        "horaFin": "20:00"
       },
       {
         "dia": "viernes",
+        "aula": "19L",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "19L"
+        "horaFin": "20:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2829,31 +2830,31 @@
   {
     "materiaClave": "D13", // INVESTIGACION DE OPERACIONES
     "grupo": "A",
-    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO IDALIA
+    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO  IDALIA
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19F"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "19F",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19F"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19F",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19F"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19F"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2865,27 +2866,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19H",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19H"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "19H",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19H"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19H",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19H"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "19H",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19H"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2897,27 +2898,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19J"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19J"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19J"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19J"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2929,27 +2930,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA7"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA7"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA7"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA7"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2957,31 +2958,31 @@
   {
     "materiaClave": "F16", // LENGUAJES DE INTERFAZ
     "grupo": "B",
-    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO IDALIA
+    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO  IDALIA
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA5"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA5"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA5"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "AA5"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -2993,33 +2994,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA5"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA5"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA5"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA5"
+        "horaFin": "12:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA5",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA5"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3027,37 +3028,37 @@
   {
     "materiaClave": "A16", // LENGUAJES Y AUTOMATAS I
     "grupo": "B",
-    "profesorId": null,
+    "profesorId": "ruiz-arroyo-armando", // RUIZ ARROYO ARMANDO
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA5"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA5"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA5"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA5"
+        "horaFin": "16:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA5",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA5"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3069,33 +3070,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA3",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA3"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "AA3",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA3"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA3",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA3"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA3",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA3"
+        "horaFin": "09:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA3",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "AA3"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3103,37 +3104,37 @@
   {
     "materiaClave": "A17", // LENGUAJES Y AUTOMATAS II
     "grupo": "B",
-    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO IDALIA
+    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO  IDALIA
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA3",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA3"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "AA3",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA3"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA3",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA3"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA3",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA3"
+        "horaFin": "16:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA3",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "AA3"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3145,33 +3146,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19F"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "19F",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19F"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19F",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19F"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19F"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "19F",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19F"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3183,33 +3184,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19C"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19C"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19C"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19C"
+        "horaFin": "12:00"
       },
       {
         "dia": "viernes",
+        "aula": "19C",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19C"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3221,33 +3222,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19C"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19C"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19C"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19C"
+        "horaFin": "15:00"
       },
       {
         "dia": "viernes",
+        "aula": "19C",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19C"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3255,37 +3256,37 @@
   {
     "materiaClave": "D11", // MATEMATICAS DISCRETAS
     "grupo": "L",
-    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO IDALIA
+    "profesorId": "ruiz-arroyo-idalia", // RUIZ ARROYO  IDALIA
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19D"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19D"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19D",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19D"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "19D",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19D"
+        "horaFin": "10:00"
       },
       {
         "dia": "viernes",
+        "aula": "19D",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19D"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3297,27 +3298,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19M"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19M"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19M"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19M"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3329,27 +3330,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA2",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "AA2"
+        "horaFin": "20:00"
       },
       {
         "dia": "martes",
+        "aula": "AA2",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "AA2"
+        "horaFin": "20:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA2",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "AA2"
+        "horaFin": "20:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA2",
         "horaInicio": "19:00",
-        "horaFin": "20:00",
-        "aula": "AA2"
+        "horaFin": "20:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3361,33 +3362,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "LA2",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "LA2"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "LA2",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "LA2"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19M"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19M"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "19M",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19M"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3399,33 +3400,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19F"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19F",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19F"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "LA2",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "LA2"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19F"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "19F",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19F"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3437,33 +3438,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19H",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19H"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "LA1",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19H"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19H",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19H"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "19H",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19H"
+        "horaFin": "12:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA4",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19H"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3475,33 +3476,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19J"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19J"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19J"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19J"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "19J",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19J"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3513,33 +3514,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19D"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19D"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19D",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19D"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "19D",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19D"
+        "horaFin": "15:00"
       },
       {
         "dia": "viernes",
+        "aula": "19D",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19D"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3551,33 +3552,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19H",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19H"
+        "horaFin": "09:00"
       },
       {
         "dia": "martes",
+        "aula": "19H",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19H"
+        "horaFin": "09:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19H",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19H"
+        "horaFin": "09:00"
       },
       {
         "dia": "jueves",
+        "aula": "19H",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19H"
+        "horaFin": "09:00"
       },
       {
         "dia": "viernes",
+        "aula": "19H",
         "horaInicio": "08:00",
-        "horaFin": "09:00",
-        "aula": "19H"
+        "horaFin": "09:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3589,33 +3590,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19H",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19H"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19H",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19H"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19H",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19H"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19H",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19H"
+        "horaFin": "13:00"
       },
       {
         "dia": "viernes",
+        "aula": "19H",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19H"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3627,27 +3628,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19J"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19J"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19J",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19J"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "19J",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19J"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -3659,27 +3660,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19L"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19L"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19L"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19L"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -3691,33 +3692,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA5"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA5"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA5"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA5"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA5",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA5"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3729,33 +3730,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA5"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA5"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA5"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA5"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA5",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "AA5"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3767,33 +3768,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA7"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA7"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA7"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA7"
+        "horaFin": "12:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA7",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA7"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3805,33 +3806,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA7",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA7"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "AA7",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA7"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA7",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA7"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA7",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA7"
+        "horaFin": "18:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA7",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA7"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3843,33 +3844,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA6",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "AA6"
+        "horaFin": "08:00"
       },
       {
         "dia": "martes",
+        "aula": "AA6",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "AA6"
+        "horaFin": "08:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA6",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "AA6"
+        "horaFin": "08:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA6",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "AA6"
+        "horaFin": "08:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA6",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "AA6"
+        "horaFin": "08:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3881,33 +3882,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19L"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19L"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19L"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19L"
+        "horaFin": "14:00"
       },
       {
         "dia": "viernes",
+        "aula": "19L",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19L"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3919,27 +3920,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19I",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19I"
+        "horaFin": "08:00"
       },
       {
         "dia": "martes",
+        "aula": "LQ1",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "LQ1"
+        "horaFin": "08:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19I",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19I"
+        "horaFin": "08:00"
       },
       {
         "dia": "jueves",
+        "aula": "19I",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19I"
+        "horaFin": "08:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3951,27 +3952,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19F"
+        "horaFin": "19:00"
       },
       {
         "dia": "martes",
+        "aula": "LQ1",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "LQ1"
+        "horaFin": "19:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19F",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19F"
+        "horaFin": "19:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "19F"
+        "horaFin": "19:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -3983,27 +3984,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19H",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19H"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "LQ1",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "LQ1"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19H",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19H"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19H",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19H"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4015,33 +4016,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA1",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA1"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "AA1",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA1"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA1",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA1"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA1",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA1"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA1",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "AA1"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4053,33 +4054,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA3",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA3"
+        "horaFin": "18:00"
       },
       {
         "dia": "martes",
+        "aula": "AA3",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA3"
+        "horaFin": "18:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA3",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA3"
+        "horaFin": "18:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA3",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA3"
+        "horaFin": "18:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA3",
         "horaInicio": "17:00",
-        "horaFin": "18:00",
-        "aula": "AA3"
+        "horaFin": "18:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4098,33 +4099,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19J",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19J"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "19J",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19J"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19L"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19L"
+        "horaFin": "11:00"
       },
       {
         "dia": "viernes",
+        "aula": "19J",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19J"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4136,33 +4137,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA3",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA3"
+        "horaFin": "19:00"
       },
       {
         "dia": "martes",
+        "aula": "AA3",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA3"
+        "horaFin": "19:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA3",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA3"
+        "horaFin": "19:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA3",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA3"
+        "horaFin": "19:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA3",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA3"
+        "horaFin": "19:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4174,27 +4175,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19L"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19L"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19L"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19L"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4206,27 +4207,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA5",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA5"
+        "horaFin": "19:00"
       },
       {
         "dia": "martes",
+        "aula": "AA5",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA5"
+        "horaFin": "19:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA5",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA5"
+        "horaFin": "19:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA5",
         "horaInicio": "18:00",
-        "horaFin": "19:00",
-        "aula": "AA5"
+        "horaFin": "19:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4238,27 +4239,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19M"
+        "horaFin": "08:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19M"
+        "horaFin": "08:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19M"
+        "horaFin": "08:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19M"
+        "horaFin": "08:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -4270,27 +4271,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19M"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19M"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19M"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19M"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0.6
@@ -4298,31 +4299,31 @@
   {
     "materiaClave": "E11", // TALLER DE ADMINISTRACION
     "grupo": "A",
-    "profesorId": null,
+    "profesorId": "ruiz-ayala-jose-dolores", // RUIZ AYALA JOSE DOLORES
     "sesiones": [
       {
         "dia": "lunes",
-        "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19G"
+        "aula": "19B",
+        "horaInicio": "14:00",
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
-        "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19G"
+        "aula": "19B",
+        "horaInicio": "14:00",
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
-        "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19G"
+        "aula": "19B",
+        "horaInicio": "14:00",
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
-        "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19G"
+        "aula": "19B",
+        "horaInicio": "14:00",
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4334,27 +4335,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19C"
+        "horaFin": "08:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19C"
+        "horaFin": "08:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19C"
+        "horaFin": "08:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "07:00",
-        "horaFin": "08:00",
-        "aula": "19C"
+        "horaFin": "08:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4362,31 +4363,31 @@
   {
     "materiaClave": "E11", // TALLER DE ADMINISTRACION
     "grupo": "G",
-    "profesorId": null,
+    "profesorId": "ruiz-ayala-jose-dolores", // RUIZ AYALA JOSE DOLORES
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19C"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19C"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19C"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19C"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4398,27 +4399,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19D"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19D"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19D",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19D"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19D",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19D"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4430,27 +4431,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA3",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA3"
+        "horaFin": "12:00"
       },
       {
         "dia": "martes",
+        "aula": "AA3",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA3"
+        "horaFin": "12:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA3",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA3"
+        "horaFin": "12:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA3",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "AA3"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4462,27 +4463,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19K",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19K"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "19K",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19K"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19K",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19K"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "19K",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19K"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4494,27 +4495,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19F",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19F"
+        "horaFin": "15:00"
       },
       {
         "dia": "martes",
+        "aula": "19F",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19F"
+        "horaFin": "15:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19F",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19F"
+        "horaFin": "15:00"
       },
       {
         "dia": "jueves",
+        "aula": "19F",
         "horaInicio": "14:00",
-        "horaFin": "15:00",
-        "aula": "19F"
+        "horaFin": "15:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4526,27 +4527,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19C"
+        "horaFin": "11:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19C"
+        "horaFin": "11:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19C"
+        "horaFin": "11:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19C"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4558,27 +4559,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19C"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19C"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19C"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19C"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4590,27 +4591,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19D",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19D"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19D",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19D"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19D",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19D"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19D",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19D"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4622,27 +4623,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19B",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19B"
+        "horaFin": "14:00"
       },
       {
         "dia": "martes",
+        "aula": "19B",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19B"
+        "horaFin": "14:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19B",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19B"
+        "horaFin": "14:00"
       },
       {
         "dia": "jueves",
+        "aula": "19B",
         "horaInicio": "13:00",
-        "horaFin": "14:00",
-        "aula": "19B"
+        "horaFin": "14:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4650,31 +4651,31 @@
   {
     "materiaClave": "G15", // TALLER DE INVESTIGACION I
     "grupo": "B",
-    "profesorId": null,
+    "profesorId": "arias-hernandez-lina-ernestina", // ARIAS HERNANDEZ LINA ERNESTINA
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19G",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19G"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "19G",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19G"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19G",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19G"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "19G",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19G"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4686,27 +4687,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19C",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19C"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "19C",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19C"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19C",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19C"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "19C",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "19C"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4718,27 +4719,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA2",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA2"
+        "horaFin": "13:00"
       },
       {
         "dia": "martes",
+        "aula": "AA2",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA2"
+        "horaFin": "13:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA1",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA1"
+        "horaFin": "13:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA1",
         "horaInicio": "12:00",
-        "horaFin": "13:00",
-        "aula": "AA1"
+        "horaFin": "13:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4750,27 +4751,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19H",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19H"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "19H",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19H"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19H",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19H"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "19H",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19H"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4782,27 +4783,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19L",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19L"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "19L",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19L"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19L",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19L"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "19L",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "19L"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4814,27 +4815,27 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA3",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA3"
+        "horaFin": "17:00"
       },
       {
         "dia": "martes",
+        "aula": "AA3",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA3"
+        "horaFin": "17:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA3",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA3"
+        "horaFin": "17:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA3",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "AA3"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4846,33 +4847,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "AA6",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA6"
+        "horaFin": "10:00"
       },
       {
         "dia": "martes",
+        "aula": "AA6",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA6"
+        "horaFin": "10:00"
       },
       {
         "dia": "miercoles",
+        "aula": "AA6",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA6"
+        "horaFin": "10:00"
       },
       {
         "dia": "jueves",
+        "aula": "AA6",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA6"
+        "horaFin": "10:00"
       },
       {
         "dia": "viernes",
+        "aula": "AA6",
         "horaInicio": "09:00",
-        "horaFin": "10:00",
-        "aula": "AA6"
+        "horaFin": "10:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4884,33 +4885,33 @@
     "sesiones": [
       {
         "dia": "lunes",
+        "aula": "19M",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19M"
+        "horaFin": "16:00"
       },
       {
         "dia": "martes",
+        "aula": "19M",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19M"
+        "horaFin": "16:00"
       },
       {
         "dia": "miercoles",
+        "aula": "19M",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19M"
+        "horaFin": "16:00"
       },
       {
         "dia": "jueves",
+        "aula": "19M",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19M"
+        "horaFin": "16:00"
       },
       {
         "dia": "viernes",
+        "aula": "19M",
         "horaInicio": "15:00",
-        "horaFin": "16:00",
-        "aula": "19M"
+        "horaFin": "16:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4922,9 +4923,9 @@
     "sesiones": [
       {
         "dia": "viernes",
+        "aula": "19C",
         "horaInicio": "10:00",
-        "horaFin": "11:00",
-        "aula": "19C"
+        "horaFin": "11:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4936,9 +4937,9 @@
     "sesiones": [
       {
         "dia": "viernes",
+        "aula": "19D",
         "horaInicio": "16:00",
-        "horaFin": "17:00",
-        "aula": "19D"
+        "horaFin": "17:00"
       }
     ],
     "porcentajeCreditosNecesario": 0
@@ -4950,9 +4951,9 @@
     "sesiones": [
       {
         "dia": "viernes",
+        "aula": "19D",
         "horaInicio": "11:00",
-        "horaFin": "12:00",
-        "aula": "19D"
+        "horaFin": "12:00"
       }
     ],
     "porcentajeCreditosNecesario": 0

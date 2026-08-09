@@ -1,9 +1,10 @@
 // Author: MiguelAGDev
-// Date: 2026-08-06
+// Date: 2026-08-09
 // Description: Generado automáticamente por packages/importer. No editar a mano.
 //
-// Last Update: 2026-08-06
+// Last Update: 2026-08-09
 // Description: Regenerado desde dataset_mireticula.xlsx.
+//
 // profesores.json — catedráticos que aparecen en la oferta académica.
 // `id` es un slug derivado del nombre (sin acentos, en minúsculas).
 // Los grupos con "MAESTRO POR ASIGNAR" en el Excel quedan con profesorId: null en grupos.json.
@@ -63,6 +64,10 @@
   {
     "id": "garcia-munoz-luis-hector",
     "nombre": "GARCIA MUÑOZ LUIS HECTOR"
+  },
+  {
+    "id": "garcia-rosas-francisco-javier",
+    "nombre": "GARCIA ROSAS FRANCISCO JAVIER"
   },
   {
     "id": "gil-vazquez-luis-fernando",
@@ -157,12 +162,12 @@
     "nombre": "RODRIGUEZ ULLOA JUAN CARLOS"
   },
   {
-    "id": "ruiz-arroyo-armando",
-    "nombre": "RUIZ ARROYO ARMANDO"
+    "id": "ruiz-arroyo-idalia",
+    "nombre": "RUIZ ARROYO  IDALIA"
   },
   {
-    "id": "ruiz-arroyo-idalia",
-    "nombre": "RUIZ ARROYO IDALIA"
+    "id": "ruiz-arroyo-armando",
+    "nombre": "RUIZ ARROYO ARMANDO"
   },
   {
     "id": "ruiz-ayala-jose-dolores",
@@ -203,10 +208,6 @@
   {
     "id": "uribe-agundis-diego",
     "nombre": "URIBE AGUNDIS DIEGO"
-  },
-  {
-    "id": "valdes-alvarado-martin-oswaldo",
-    "nombre": "VALDES ALVARADO MARTIN OSWALDO"
   },
   {
     "id": "vela-alvarez-georgina-elizabeth",

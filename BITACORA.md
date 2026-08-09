@@ -250,11 +250,45 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
   Playwright: la URL nunca cambia de `/plan` al generar.
 - **Tiempo invertido:** 30 min
 
+### Regeneración de datos desde el portal oficial de horarios
+- **Descripción:** `dataset_mireticula.xlsx` se corrompió dos veces al
+  editarlo a mano (encabezados desfasados, `Requisitos`/`Correq.`
+  invertidos — ver entrada anterior). Se encontró que
+  `apps2.itlalaguna.edu.mx/horarios` es un portal público (sin login,
+  pese al nombre `login.aspx`) que expone la misma oferta académica en
+  vivo. Se automatizó con Playwright (temporal, no commiteado): elegir
+  "INGENIERIA EN SISTEMAS COMPUTACIONALES" y extraer la tabla completa
+  (141 grupos) directo del DOM — el usuario confirmó con un PDF exportado
+  del mismo portal que el contenido coincide exactamente.
+  - Se detectó el nuevo formato de horario: una columna `Horario` general
+    + aula por día (`L M I J V`), con la hora especial de un día pegada
+    al código de aula sin separador cuando difiere (ej. `19M10:00-12:00`
+    para el viernes de Gestión de Proyectos) — se parseó con una regex
+    dedicada, verificado contra los 3 casos reales que existen.
+  - Los datos se reprocesaron con `construirModelo` + `json-writer` de
+    `packages/importer` **sin modificarlos** (se armó el `RawRow[]` a
+    mano desde el scrape en vez de tocar el excel-reader) — los 5
+    `.jsonc` quedaron regenerados. `semestre` (llenado a mano) se
+    restauró desde un respaldo tomado antes de regenerar, porque el
+    importer siempre lo deja en `null`.
+  - **`dataset_mireticula.xlsx` se reescribió limpio**, en el formato
+    original que `excel-reader` ya sabía leer (columnas por día con
+    `"HH:MM-HH:MM/AULA"`) — verificado con round-trip: se leyó con el
+    importer real sin modificar y produjo exactamente los mismos datos.
+    Ningún código del importer cambió.
+  - Diff final contra los `.jsonc` anteriores: solo cambió lo esperado
+    (fechas de encabezado, y el código especial de requisitos de R19 que
+    ahora viene concatenado `"A1CS1S"` en vez de `"A1C S1S"` — R19 ya está
+    excluida de la app, sin impacto funcional). Todo lo demás
+    (prerrequisitos, horarios, profesores) es idéntico. `npm run build`
+    limpio en los 4 workspaces.
+- **Tiempo invertido:** 1h 15min
+
 ---
 
 ## Tiempo total invertido
 
-**10h 30min**
+**11h 45min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando

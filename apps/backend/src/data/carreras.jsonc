@@ -1,9 +1,10 @@
 // Author: MiguelAGDev
-// Date: 2026-08-06
+// Date: 2026-08-09
 // Description: Generado automáticamente por packages/importer. No editar a mano.
 //
-// Last Update: 2026-08-06
+// Last Update: 2026-08-09
 // Description: Regenerado desde dataset_mireticula.xlsx.
+//
 // carreras.json — carreras soportadas por Mi Retícula.
 // v1.0 solo cubre Ingeniería en Sistemas Computacionales (Tec Laguna).
 // `materias` lista las claves del plan de estudios de la carrera.
@@ -65,7 +66,7 @@
       "G15", // TALLER DE INVESTIGACION I
       "G16", // TALLER DE INVESTIGACION II
       "R19", // RESIDENCIA
-      "T11"  // TUTORIA
+      "T11" // TUTORIA
     ]
   }
 ]

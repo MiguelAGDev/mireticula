@@ -2,24 +2,17 @@
 // Date: 2026-08-06
 // Description: Generado automáticamente por packages/importer. No editar a mano.
 //
-// Last Update: 2026-08-08
-// Description: `semestre` (1-9) confirmado contra el documento oficial
-// "PLAN RETICULAR INGENIERÍA EN SISTEMAS COMPUTACIONALES" (ISIC-2010-224
-// / especialidad ISIE-TDS-2024-01) que compartió el usuario — reemplaza
-// una primera lectura manual (de otra imagen, menos detallada) que tenía
-// varios semestres mal. Semestre IX (51D, 61D) es nuevo — antes la
-// retícula solo llegaba a VIII. `creditos` sigue en null a propósito: la
-// imagen los muestra como "horas teoría-horas práctica-créditos" (ej.
-// "3-2-5") y no hay certeza suficiente para transcribir los 54 valores
-// sin verificarlos. R19 (RESIDENCIA) y T11 (TUTORIA) se dejan sin
-// semestre a propósito — Residencia Profesional, Servicio Social y
-// Actividades Complementarias se excluyen explícitamente del sistema
-// (no se cursan como materia con grupo/horario), así que la pantalla de
-// Retícula interactiva y el generador de horarios las ignoran.
+// Last Update: 2026-08-09
+// Description: Regenerado desde el portal oficial de horarios (apps2.itlalaguna.edu.mx/horarios),
+// que reemplazó a dataset_mireticula.xlsx como fuente — el Excel se venía corrompiendo al
+// editarlo a mano (encabezados desfasados, Requisitos/Correquisitos invertidos). Después de
+// regenerar, se restauró `semestre` desde el respaldo previo (el importer siempre lo deja en
+// null, no viene de ninguna fuente automática) — confirmado contra el documento oficial
+// ISIC-2010-224/ISIE-TDS-2024-01. `creditos` sigue en null, sigue sin fuente confiable.
+//
 // materias.json — catálogo de materias de la oferta académica importada.
-// IMPORTANTE: `creditos` NO viene en dataset_mireticula.xlsx, queda en
-// null. Debe completarse manualmente cruzando contra la retícula oficial
-// de Ingeniería en Sistemas Computacionales (Tec Laguna).
+// R19 (RESIDENCIA) y T11 (TUTORIA) se dejan sin semestre a propósito — no son materias con
+// grupo/horario que se cursen normalmente, la Retícula interactiva las excluye.
 [
   {
     "clave": "11D",

@@ -1,9 +1,10 @@
 // Author: MiguelAGDev
-// Date: 2026-08-06
+// Date: 2026-08-09
 // Description: Generado automáticamente por packages/importer. No editar a mano.
 //
-// Last Update: 2026-08-06
+// Last Update: 2026-08-09
 // Description: Regenerado desde dataset_mireticula.xlsx.
+//
 // prerrequisitos.json — requisitos por materia. Solo incluye materias que
 // tienen al menos un requisito. `requisitos[].tipo` distingue:
 //   - "prerrequisito": materia que debe estar aprobada (columna Requisitos).
@@ -350,13 +351,8 @@
     "requisitos": [
       {
         "tipo": "requisitoEspecial",
-        "codigoOriginal": "A1C",
-        "descripcion": "Código \"A1C\" en la columna Requisitos de R19 (RESIDENCIA) no corresponde a ninguna clave de materia del catálogo. Probablemente se refiera a avance crediticio y/o servicio social (típico para Residencia Profesional). Verificar manualmente contra los lineamientos del Tec Laguna."
-      },
-      {
-        "tipo": "requisitoEspecial",
-        "codigoOriginal": "S1S",
-        "descripcion": "Código \"S1S\" en la columna Requisitos de R19 (RESIDENCIA) no corresponde a ninguna clave de materia del catálogo. Probablemente se refiera a avance crediticio y/o servicio social (típico para Residencia Profesional). Verificar manualmente contra los lineamientos del Tec Laguna."
+        "codigoOriginal": "A1CS1S",
+        "descripcion": "Código \"A1CS1S\" en la columna Requisitos de R19 (RESIDENCIA) no corresponde a ninguna clave de materia del catálogo. Probablemente se refiera a avance crediticio y/o servicio social (típico para Residencia Profesional). Verificar manualmente contra los lineamientos del Tec Laguna."
       }
     ]
   }
