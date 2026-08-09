@@ -130,11 +130,56 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
   - `npm run build --workspace=apps/backend` limpio.
 - **Tiempo invertido:** 45 min
 
+### `materias.jsonc` — semestre de cada materia (retícula oficial)
+- **Descripción:** se llenó a mano `semestre` (1-8) para las 52 materias
+  que sí aparecen en la retícula visual que compartió el usuario, leyendo
+  su columna (I-VIII). `R19` (RESIDENCIA) y `T11` (TUTORIA) se dejan sin
+  semestre a propósito — no aparecen como recuadro en la retícula oficial
+  y por eso la pantalla de Retícula interactiva los excluye.
+  **`creditos` se dejó en `null` a propósito**: la imagen los muestra como
+  "horas teoría-práctica-créditos" (ej. "3-2-5") y no había certeza
+  suficiente para transcribir los 54 valores sin verificarlos — se
+  decidió no adivinar un número que se vea autoritativo sin serlo.
+  ⚠️ Esto es una lectura manual de una imagen, no un dato del Excel — el
+  semestre de las 6 electivas (`11D`/`21D`/`31D`/`41D`/`51D`/`61D`) tiene
+  menos certeza que el resto; pendiente de que el usuario lo verifique.
+  ⚠️ Además, si se vuelve a correr `npm run import`, este archivo se
+  regenera desde el Excel y se pierde este llenado manual (el importer no
+  lo preserva) — pendiente para una fase futura.
+- **Tiempo invertido:** 20 min
+
+### `apps/frontend` — Fase 3 (pantallas 2-6 + Feedback)
+- **Descripción:** el resto del flujo de usuario, conectado al backend
+  real:
+  - `react-router-dom` + `AppStateProvider` (Context simple, sin librería
+    de estado externa) para compartir carrera/materias/restricciones/
+    preferencias/resultado entre pantallas.
+  - `services/api.ts` + `types/api.ts`: cliente HTTP y tipos de la API —
+    a propósito NO importan `@mi-reticula/schedule-engine` (solo el
+    backend lo consume, por arquitectura), duplican la forma de los DTOs.
+  - `vite.config.ts`: proxy de `/api` al backend en dev, para no
+    pelearse con CORS ni hardcodear el host.
+  - `SeleccionCarrera.tsx` — pantalla 2.
+  - `ReticulaInteractiva.tsx` — pantalla 3: grid de 8 columnas
+    (semestres), color por área derivado del prefijo de la clave, click
+    para marcar aprobada, checkbox "Inscribir" en las disponibles.
+  - `Restricciones.tsx` — pantalla 4: form de obligatorias + preferencias,
+    dispara `POST /api/horarios`.
+  - `Resultados.tsx` + `CuadriculaSemanal.tsx` + `FeedbackHorario.tsx` —
+    pantallas 6-7: cuadrícula semanal real (posicionada por hora),
+    desglose ✓/✗, y 👍/👎 + comentario por horario (solo estado local,
+    v1.0 no tiene backend de feedback).
+  - Verificado: `npm run build --workspace=apps/frontend` limpio, y
+    prueba en caliente del flujo `GET /api/carreras` → `GET /api/materias`
+    (semestre + exclusión de R19/T11 confirmadas) → proxy `/api` del
+    frontend funcionando end-to-end.
+- **Tiempo invertido:** 1h 40min
+
 ---
 
 ## Tiempo total invertido
 
-**3h 55min**
+**5h 55min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando
