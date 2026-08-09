@@ -5,17 +5,15 @@
 // preferencias, resultado — compartido entre pantallas).
 
 // Last Update: 2026-08-08
-// Description: Se agregó react-router-dom con las 6 rutas del flujo
-// (Fase 3): Inicio, Selección de carrera, Retícula, Restricciones,
-// Resultados. Feedback vive dentro de Resultados, no es ruta aparte.
+// Description: Restricciones y Resultados se fusionaron en /plan (una
+// sola vista, dos columnas) — ya no son rutas separadas.
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { AppStateProvider } from "./hooks/AppStateContext";
 import Inicio from "./pages/Inicio";
 import SeleccionCarrera from "./pages/SeleccionCarrera";
 import ReticulaInteractiva from "./pages/ReticulaInteractiva";
-import Restricciones from "./pages/Restricciones";
-import Resultados from "./pages/Resultados";
+import PlanDeHorario from "./pages/PlanDeHorario";
 
 function App() {
   return (
@@ -25,8 +23,7 @@ function App() {
           <Route path="/" element={<Inicio />} />
           <Route path="/carrera" element={<SeleccionCarrera />} />
           <Route path="/reticula" element={<ReticulaInteractiva />} />
-          <Route path="/restricciones" element={<Restricciones />} />
-          <Route path="/resultados" element={<Resultados />} />
+          <Route path="/plan" element={<PlanDeHorario />} />
         </Routes>
       </BrowserRouter>
     </AppStateProvider>

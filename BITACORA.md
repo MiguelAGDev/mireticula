@@ -175,11 +175,86 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
     frontend funcionando end-to-end.
 - **Tiempo invertido:** 1h 40min
 
+## 2026-08-09
+
+### Puerto del backend: 3001 → 3010
+- **Descripción:** un proceso de pruebas de una sesión anterior se quedó
+  pegado en el puerto 3001 (ni el sandbox de la IA ni el usuario pudieron
+  matarlo). Se cambió el puerto por defecto de `apps/backend` (y el proxy
+  de `vite.config.ts`) a 3010 en vez de seguir peleando con eso.
+- **Tiempo invertido:** 10 min
+
+### `materias.jsonc` — semestre corregido contra el documento oficial real
+- **Descripción:** el usuario compartió el documento oficial completo
+  ("PLAN RETICULAR INGENIERÍA EN SISTEMAS COMPUTACIONALES", ISIC-2010-224
+  / especialidad ISIE-TDS-2024-01) con la lista exacta de materias por
+  semestre. Se cruzó contra `prerrequisitos.jsonc` (dato real del Excel)
+  y se encontraron 2 discrepancias reales entre la descripción y los
+  datos reales, reportadas antes de asumir nada: Graficación no está
+  entre Fund. Ingeniería de Software e Ingeniería de Software (su
+  prerrequisito real es Estructura de Datos), y las materias `****`
+  (60% créditos) no tienen prerrequisito de materia, solo el
+  `porcentajeCreditos`. Se corrigieron los semestres mal asignados
+  (C14, C15, D16, B15, E13, C17, F17, E14, C18, A18, 31D, C16, 41D) y se
+  agregó el **Semestre IX** (51D, 61D) que no existía antes. Se confirmó
+  el conteo final por semestre contra la lista del usuario (52 materias
+  distribuidas en 9 semestres + 2 excluidas).
+- **Tiempo invertido:** 40 min
+
+### Retícula interactiva — reescritura a posiciones fijas
+- **Descripción:** el layout anterior apilaba materias en filas simples
+  que se reacomodaban según la lista. Se reescribió con una tabla
+  estática `clave -> {semestre, fila}` (única fuente de la posición) y
+  tarjetas `position: absolute` de tamaño fijo — la posición y el tamaño
+  ya no cambian al aprobar/interactuar. Flechas de prerrequisito en un
+  `<svg>` superpuesto, calculadas con la misma fórmula analítica (no
+  medición del DOM), dibujadas solo para requisitos reales tipo
+  prerrequisito/correquisito (no para `porcentajeCreditos`, que no tiene
+  materia de origen). Verificado con Playwright (temporal, no
+  commiteado): capturas antes/después de aprobar una materia confirmando
+  que nada se mueve y que el desbloqueo funciona sin recargar.
+- **Tiempo invertido:** 1h 10min
+
+### Retícula interactiva — 5 ajustes visuales/funcionales
+- **Descripción:** a partir de feedback puntual del usuario sobre las
+  capturas:
+  1. Flechas ruteadas en codo (ortogonales, `M x y H mitad V y2 H x2`) en
+     vez de línea recta, y con z-index detrás de las tarjetas (antes
+     cruzaban el texto de tarjetas intermedias).
+  2. Encabezados de columna en números romanos (I-IX).
+  3. Más espaciado entre columnas/filas y padding interno de tarjeta.
+  4. Colores más saturados (`-900`/`-500` en vez de `-950`/`-700`),
+     estado "aprobada" con ✅ + anillo verde en toda la tarjeta, hover
+     con escala + sombra.
+  5. Toggle de dos modos nuevo: "Marcar cursadas" (comportamiento
+     original) vs "Elegir a inscribir" (solo materias disponibles
+     responden a click, selección múltiple con anillo azul); el estado
+     de aprobadas se conserva al cambiar de modo, y el contador del
+     botón "Continuar" cambia según el modo activo.
+  - Se investigó el aviso del usuario sobre Gestión de Proyectos de
+    Software (2 horas el viernes, `10:00-12:00`): confirmado que es un
+    solo bloque real de 2 horas (no un dato duplicado), y que ningún
+    código del proyecto asume duración fija de sesión — no hizo falta
+    corregir nada.
+  - Verificado otra vez con Playwright (temporal): 4 capturas cubriendo
+    ambos modos, el zoom a la zona de flechas que el usuario señaló, y
+    el estado "aprobada" con dos materias marcadas.
+- **Tiempo invertido:** 1h 05min
+
+### Fusión de Restricciones + Resultados en `/plan`
+- **Descripción:** `Restricciones.tsx` y `Resultados.tsx` (rutas
+  separadas) se fusionaron en `PlanDeHorario.tsx`, una sola vista en
+  `/plan` con dos columnas (restricciones a la izquierda, resultados a
+  la derecha) — sin navegación entre configurar y ver resultados, el
+  botón "Generar" solo actualiza la columna derecha. Verificado con
+  Playwright: la URL nunca cambia de `/plan` al generar.
+- **Tiempo invertido:** 30 min
+
 ---
 
 ## Tiempo total invertido
 
-**5h 55min**
+**10h 30min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando
