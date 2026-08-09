@@ -82,11 +82,40 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
   que todo compila.
 - **Tiempo invertido:** 20 min
 
+### `PROYECTO.md` — documento de propósito, plan y estado
+- **Descripción:** documento único para lectura humana (a diferencia de
+  `CLAUDE.md`, que es contexto para IA): qué es Mi Retícula, alcance,
+  propósito de cada pieza de la arquitectura, flujo de la app, requisitos,
+  roadmap, y una tabla de estado actual verificada contra el repo real.
+- **Tiempo invertido:** 15 min
+
+### `packages/schedule-engine` — Fase 1 (parser, scheduler, scorer)
+- **Descripción:** motor de horarios completo, TypeScript puro sin
+  dependencias de Express/React:
+  - `parser`: resuelve estado de cada materia (aprobada/disponible/
+    bloqueada) contra prerrequisitos, correquisitos y % de créditos, con
+    motivo explicado en texto por cada requisito evaluado.
+  - `scheduler`: backtracking con poda temprana (heurística de variable
+    más restringida primero), filtra por restricciones obligatorias antes
+    de combinar, y devuelve por qué no hubo resultados cuando aplica.
+  - `scorer`: puntuación 0-100 con desglose estructurado por preferencia
+    (entrar tarde, salir temprano, sin huecos, viernes libre).
+  - Se verificó con un script ad-hoc (no commiteado) contra los datos
+    reales de `apps/backend/src/data/*.jsonc`, lo que destapó un bug real:
+    `RequisitoPorcentajeCreditos.porcentaje` sí es fracción 0-1 (no 0-100
+    como se había asumido al reformatear `shared-types` el día 6) — se
+    corrigió el comentario y la lógica del parser.
+  - De paso: `RequisitoMateria` se dividió en `RequisitoPrerrequisito` +
+    `RequisitoCorequisito` porque TypeScript no angostaba bien el
+    discriminated union con un solo campo `tipo` de tipo unión.
+  - `npm run build` limpio en `schedule-engine`, `importer` y `frontend`.
+- **Tiempo invertido:** 55 min
+
 ---
 
 ## Tiempo total invertido
 
-**2h 00min**
+**3h 10min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando

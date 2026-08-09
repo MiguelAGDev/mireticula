@@ -1,0 +1,15 @@
+// Author: MiguelAGDev
+// Date: 2026-08-08
+// Description: Config de TypeScript para packages/schedule-engine
+// (lógica pura de Node, sin DOM).
+
+// Last Update: 2026-08-08
+// Description: Encabezado inicial, sin cambios de contenido.
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": [ "src" ]
+}

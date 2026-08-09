@@ -1,0 +1,18 @@
+{
+  "name": "@mi-reticula/schedule-engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Motor de horarios: parser (grafo de prerrequisitos) -> scheduler (backtracking con poda) -> scorer (puntuación con desglose estructurado). Lógica pura, sin Express ni React.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@mi-reticula/shared-types": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
