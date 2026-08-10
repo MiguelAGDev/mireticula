@@ -5,14 +5,16 @@
 // directamente — así el paquete puede reorganizarse por dentro sin romper
 // a sus consumidores.
 
-// Last Update: 2026-08-08
-// Description: Encabezado inicial, sin cambios de contenido.
+// Last Update: 2026-08-09
+// Description: Se exporta el nuevo tipo MateriaExcluida (scheduler ahora
+// reporta subconjuntos parciales, no solo todo-o-nada).
 
 export type { ContextoAcademico, EstadoMateria, MateriaConEstado, RequisitoEvaluado } from "./parser/index.js";
 export { resolverEstadoMaterias } from "./parser/index.js";
 
 export type {
   HorarioGenerado,
+  MateriaExcluida,
   MateriaSeleccionada,
   OpcionesScheduler,
   ResultadoScheduler,

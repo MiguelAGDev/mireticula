@@ -6,8 +6,11 @@
 // resultado ya ordenado por puntuación; cero lógica de horarios vive
 // aquí, solo el cableado HTTP.
 
-// Last Update: 2026-08-08
-// Description: Encabezado inicial, sin cambios de contenido.
+// Last Update: 2026-08-09
+// Description: profesoresAEvitar llega del body como arreglo plano (JSON
+// no tiene Set) — se convierte a Set real antes de pasarlo al scheduler,
+// que asume .has(); sin esto, cualquier request con profesores a evitar
+// tronaba el endpoint con 500.
 
 import type { Request, Response } from "express";
 import type { Grupo } from "@mi-reticula/shared-types";
@@ -67,10 +70,17 @@ export function generarHorariosController( req: Request, res: Response ): void {
   }
 
   const materiasPorClave = new Map( materias.map( ( m ) => [ m.clave, m ] ) );
+  // El body llega como JSON (profesoresAEvitar es un arreglo plano) — el
+  // scheduler espera un Set real (usa .has()). Sin esta conversión,
+  // cualquier request con al menos un profesor a evitar tronaba con 500.
+  const restricciones = {
+    ...cuerpo.restricciones,
+    profesoresAEvitar: cuerpo.restricciones?.profesoresAEvitar ? new Set( cuerpo.restricciones.profesoresAEvitar ) : undefined,
+  };
   const resultado = generarHorarios(
     seleccion as { materiaClave: string; gruposCandidatos: Grupo[] }[],
     materiasPorClave,
-    cuerpo.restricciones ?? {},
+    restricciones,
     { maxResultados: cuerpo.maxResultados },
   );
 

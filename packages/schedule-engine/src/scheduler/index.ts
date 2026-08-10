@@ -6,8 +6,12 @@
 // poda temprana: descarta una rama en cuanto choca en horario o rompe
 // una restricción, en vez de generar todo y filtrar después.
 
-// Last Update: 2026-08-08
-// Description: Encabezado inicial, sin cambios de contenido.
+// Last Update: 2026-08-09
+// Description: Ya no exige que TODAS las materias seleccionadas quepan.
+// Ahora busca, por branch-and-bound, el subconjunto más grande posible
+// sin choques (incluyendo empates), y reporta por horario cuáles
+// materias quedaron fuera y por qué — antes, un solo choque entre dos
+// materias tumbaba el 100% de los resultados.
 
 import type { Grupo, Materia, Sesion } from "@mi-reticula/shared-types";
 
@@ -28,24 +32,35 @@ export interface RestriccionesObligatorias {
   profesoresAEvitar?: ReadonlySet<string>;
 }
 
+export interface MateriaExcluida {
+  materiaClave: string;
+  /** Explicación concreta de por qué esta materia no quedó en este horario en particular. */
+  motivo: string;
+}
+
 export interface HorarioGenerado {
-  /** Un Grupo por cada materia de materiasSeleccionadas, en el mismo orden en que se recibieron. */
+  /** Un Grupo por cada materia que sí quedó incluida en este horario — puede ser menos que materiasSeleccionadas. */
   grupos: Grupo[];
   creditosTotales: number;
+  /** De materiasSeleccionadas, las que NO quedaron en este horario, con motivo. Vacío si cupieron todas. */
+  materiasExcluidas: MateriaExcluida[];
 }
 
 export interface ResultadoScheduler {
+  /** Todas con el mismo número de materias incluidas: el máximo que se pudo lograr sin choques. */
   horarios: HorarioGenerado[];
-  /** Presente solo cuando horarios.length === 0: qué restricción dejó todo sin opciones. */
+  /** Presente solo cuando horarios.length === 0: ni siquiera el mejor subconjunto posible cumple algo obligatorio (ej. creditosMin). */
   explicacionSinResultados?: string;
 }
 
 export interface OpcionesScheduler {
-  /** Tope de combinaciones a devolver, para no explotar en memoria/tiempo. */
+  /** Tope de combinaciones a devolver (todas del tamaño máximo), para no explotar en memoria/tiempo. */
   maxResultados?: number;
 }
 
 const MAX_RESULTADOS_DEFECTO = 50;
+/** Red de seguridad: con la poda por cota superior esto no debería alcanzarse en la escala real (decenas de materias, pocos grupos cada una), pero evita que un caso patológico cuelgue el request — si se alcanza, se regresa el mejor subconjunto encontrado hasta ese punto. */
+const TOPE_NODOS_EXPLORADOS = 200_000;
 
 function seSolapan( a: Sesion, b: Sesion ): boolean {
   if ( a.dia !== b.dia ) return false;
@@ -57,7 +72,7 @@ function chocaConElegidos( candidato: Grupo, elegidos: Grupo[] ): boolean {
   return elegidos.some( ( g ) => g.sesiones.some( ( s1 ) => candidato.sesiones.some( ( s2 ) => seSolapan( s1, s2 ) ) ) );
 }
 
-/** Filtra por profesoresAEvitar y por la ventana horaEntradaMin/horaSalidaMax. Es poda temprana en el origen: nunca se llegan a probar esos grupos. */
+/** Filtra por profesoresAEvitar y por la ventana horaEntradaMin/horaSalidaMax. Es poda temprana en el origen: nunca se llegan a probar esos grupos. Una materia que se queda sin candidatos aquí simplemente nunca podrá incluirse — no tumba a las demás. */
 function filtrarPorRestricciones( grupos: Grupo[], restricciones: RestriccionesObligatorias ): Grupo[] {
   return grupos.filter( ( grupo ) => {
     if ( restricciones.profesoresAEvitar && grupo.profesorId && restricciones.profesoresAEvitar.has( grupo.profesorId ) ) {
@@ -73,6 +88,53 @@ function filtrarPorRestricciones( grupos: Grupo[], restricciones: RestriccionesO
   } );
 }
 
+function cumpleCreditos( creditos: number, restricciones: RestriccionesObligatorias ): boolean {
+  if ( restricciones.creditosMin !== undefined && creditos < restricciones.creditosMin ) return false;
+  if ( restricciones.creditosMax !== undefined && creditos > restricciones.creditosMax ) return false;
+  return true;
+}
+
+/**
+ * Corrida rápida (sin backtracking real) para tener una cota inicial VÁLIDA
+ * del tamaño de subconjunto alcanzable: mete materias en orden, una a la
+ * vez, si no choca con lo ya elegido. Solo se usa como semilla de
+ * `mejorTamanoGlobal` si de verdad cumple creditosMin/Max — si no se
+ * valida, se descarta (usar un tamaño no confirmado como cota rompería la
+ * poda: podría descartar por error el óptimo real). Con esta semilla la
+ * poda por cota superior empieza a cortar ramas desde el primer nodo en
+ * vez de tener que descubrir un buen resultado poco a poco.
+ */
+function tamanoSemillaValida( ordenadas: MateriaSeleccionada[], materiasPorClave: Map<string, Materia>, restricciones: RestriccionesObligatorias ): number {
+  const elegidos: Grupo[] = [];
+  for ( const materia of ordenadas ) {
+    const candidato = materia.gruposCandidatos.find( ( c ) => !chocaConElegidos( c, elegidos ) );
+    if ( candidato ) elegidos.push( candidato );
+  }
+  const creditos = elegidos.reduce( ( total, g ) => total + ( materiasPorClave.get( g.materiaClave )?.creditos ?? 0 ), 0 );
+  return cumpleCreditos( creditos, restricciones ) ? elegidos.length : 0;
+}
+
+/** Por qué una materia en particular no quedó en ESTE horario: si ninguno de sus grupos candidatos chocaba con lo elegido, fue una decisión de combinación (hay otras opciones que sí la incluyen); si todos chocaban, se señala contra qué materia/grupo específico. */
+function motivoExclusion( materia: MateriaSeleccionada, elegidos: Grupo[], materiasPorClave: Map<string, Materia> ): string {
+  if ( materia.gruposCandidatos.length === 0 ) {
+    return "Ningún grupo cumple las restricciones obligatorias configuradas (profesor a evitar y/o ventana de horario).";
+  }
+
+  const teniaOpcionLibre = materia.gruposCandidatos.some( ( c ) => !chocaConElegidos( c, elegidos ) );
+  if ( teniaOpcionLibre ) {
+    return "No quedó incluida en esta opción para lograr el máximo de materias sin choques — revisa las demás opciones generadas, alguna puede incluirla a cambio de otra.";
+  }
+
+  for ( const candidato of materia.gruposCandidatos ) {
+    const elegidoQueChoca = elegidos.find( ( g ) => g.sesiones.some( ( s1 ) => candidato.sesiones.some( ( s2 ) => seSolapan( s1, s2 ) ) ) );
+    if ( elegidoQueChoca ) {
+      const nombreOtro = materiasPorClave.get( elegidoQueChoca.materiaClave )?.nombre ?? elegidoQueChoca.materiaClave;
+      return `Choca en horario con ${nombreOtro} (grupo ${elegidoQueChoca.grupo}) en todos sus grupos disponibles.`;
+    }
+  }
+  return "No se pudo incluir en esta opción.";
+}
+
 export function generarHorarios(
   materiasSeleccionadas: MateriaSeleccionada[],
   materiasPorClave: Map<string, Materia>,
@@ -85,72 +147,75 @@ export function generarHorarios(
     return { horarios: [], explicacionSinResultados: "No se seleccionó ninguna materia para generar horarios." };
   }
 
-  // Pre-filtrado por materia; si alguna se queda sin candidatos, ya sabemos
-  // exactamente por qué no puede haber ningún horario válido.
   const materiasFiltradas = materiasSeleccionadas.map( ( m ) => ( {
     materiaClave: m.materiaClave,
     gruposCandidatos: filtrarPorRestricciones( m.gruposCandidatos, restricciones ),
   } ) );
 
-  const materiaSinCandidatos = materiasFiltradas.find( ( m ) => m.gruposCandidatos.length === 0 );
-  if ( materiaSinCandidatos ) {
-    const nombre = materiasPorClave.get( materiaSinCandidatos.materiaClave )?.nombre ?? materiaSinCandidatos.materiaClave;
-    return {
-      horarios: [],
-      explicacionSinResultados: `Ningún grupo de ${materiaSinCandidatos.materiaClave} (${nombre}) cumple las restricciones obligatorias (profesor a evitar y/o ventana de horario).`,
-    };
-  }
-
   // Heurística de variable más restringida: probar primero la materia con
   // menos opciones ayuda a la poda a descartar ramas malas antes.
   const ordenadas = [ ...materiasFiltradas ].sort( ( a, b ) => a.gruposCandidatos.length - b.gruposCandidatos.length );
 
-  const horarios: HorarioGenerado[] = [];
-  let huboChoqueDeHorario = false;
-  let huboProblemaDeCreditos = false;
+  let mejorTamanoGlobal = tamanoSemillaValida( ordenadas, materiasPorClave, restricciones );
+  const resultadosCrudos: { grupos: Grupo[]; creditosTotales: number; incluidas: Set<string> }[] = [];
+  let nodosExplorados = 0;
 
-  function calcularCreditos( grupos: Grupo[] ): number {
-    return grupos.reduce( ( total, g ) => total + ( materiasPorClave.get( g.materiaClave )?.creditos ?? 0 ), 0 );
-  }
+  function backtrack( indice: number, elegidos: Grupo[], incluidas: string[], creditosAcumulados: number ): void {
+    nodosExplorados++;
+    if ( nodosExplorados > TOPE_NODOS_EXPLORADOS ) return;
 
-  function backtrack( indice: number, elegidos: Grupo[] ): void {
-    if ( horarios.length >= maxResultados ) return;
+    const materiasRestantes = ordenadas.length - indice;
+    const cotaSuperior = incluidas.length + materiasRestantes;
+    if ( cotaSuperior < mejorTamanoGlobal ) return; // ni empatando el mejor que ya se tiene, se poda
 
     if ( indice === ordenadas.length ) {
-      const creditosTotales = calcularCreditos( elegidos );
-      if ( restricciones.creditosMin !== undefined && creditosTotales < restricciones.creditosMin ) {
-        huboProblemaDeCreditos = true;
-        return;
+      if ( !cumpleCreditos( creditosAcumulados, restricciones ) ) return;
+
+      if ( incluidas.length > mejorTamanoGlobal ) {
+        mejorTamanoGlobal = incluidas.length;
+        resultadosCrudos.length = 0; // ya no compiten los de tamaño menor
       }
-      if ( restricciones.creditosMax !== undefined && creditosTotales > restricciones.creditosMax ) {
-        huboProblemaDeCreditos = true;
-        return;
+      if ( incluidas.length === mejorTamanoGlobal && resultadosCrudos.length < maxResultados ) {
+        resultadosCrudos.push( { grupos: [ ...elegidos ], creditosTotales: creditosAcumulados, incluidas: new Set( incluidas ) } );
       }
-      horarios.push( { grupos: [ ...elegidos ], creditosTotales } );
       return;
     }
 
-    for ( const candidato of ordenadas[indice].gruposCandidatos ) {
-      if ( horarios.length >= maxResultados ) return;
-      if ( chocaConElegidos( candidato, elegidos ) ) {
-        huboChoqueDeHorario = true;
-        continue; // poda: no baja a explorar esta rama
-      }
+    const materia = ordenadas[indice];
+
+    // Rama A: incluirla, un grupo candidato a la vez.
+    for ( const candidato of materia.gruposCandidatos ) {
+      if ( chocaConElegidos( candidato, elegidos ) ) continue;
       elegidos.push( candidato );
-      backtrack( indice + 1, elegidos );
+      incluidas.push( materia.materiaClave );
+      backtrack( indice + 1, elegidos, incluidas, creditosAcumulados + ( materiasPorClave.get( materia.materiaClave )?.creditos ?? 0 ) );
+      incluidas.pop();
       elegidos.pop();
     }
+
+    // Rama B: excluirla.
+    backtrack( indice + 1, elegidos, incluidas, creditosAcumulados );
   }
 
-  backtrack( 0, [] );
+  backtrack( 0, [], [], 0 );
 
-  if ( horarios.length > 0 ) return { horarios };
+  if ( resultadosCrudos.length === 0 ) {
+    return {
+      horarios: [],
+      explicacionSinResultados:
+        restricciones.creditosMin !== undefined || restricciones.creditosMax !== undefined
+          ? "No existe ninguna combinación (ni siquiera reduciendo materias) que quede dentro del rango de créditos mínimo/máximo configurado."
+          : "No se encontró ninguna combinación válida.",
+    };
+  }
 
-  const explicacionSinResultados = huboProblemaDeCreditos
-    ? "Todas las combinaciones sin choques de horario quedaron fuera del rango de créditos mínimo/máximo."
-    : huboChoqueDeHorario
-      ? "Todas las combinaciones posibles tienen algún choque de horario entre materias seleccionadas."
-      : "No se encontró ninguna combinación válida.";
+  const horarios: HorarioGenerado[] = resultadosCrudos.map( ( { grupos, creditosTotales, incluidas } ) => ( {
+    grupos,
+    creditosTotales,
+    materiasExcluidas: ordenadas
+      .filter( ( m ) => !incluidas.has( m.materiaClave ) )
+      .map( ( m ) => ( { materiaClave: m.materiaClave, motivo: motivoExclusion( m, grupos, materiasPorClave ) } ) ),
+  } ) );
 
-  return { horarios: [], explicacionSinResultados };
+  return { horarios };
 }

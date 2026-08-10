@@ -8,9 +8,10 @@
 // cambiar de URL.
 
 // Last Update: 2026-08-09
-// Description: Proporción de columnas cambiada de 50/50 a 30/70
-// (restricciones/resultados) — las cuadrículas semanales necesitan más
-// espacio horizontal, es el contenido que el usuario realmente compara.
+// Description: El scheduler ya puede devolver un subconjunto parcial de
+// las materias seleccionadas (cuando no todas caben sin choques) — cada
+// Opción ahora muestra cuántas de las seleccionadas quedaron incluidas y,
+// si faltó alguna, cuál y por qué.
 
 import { useMemo, useState } from "react";
 import CuadriculaSemanal from "../components/CuadriculaSemanal";
@@ -175,7 +176,7 @@ function PanelRestricciones() {
 }
 
 function PanelResultados() {
-  const { resultado, materiasInfo } = useAppState();
+  const { resultado, materiasInfo, materiasSeleccionadas } = useAppState();
 
   const nombresPorClave = useMemo(
     () => new Map( materiasInfo.map( ( m ) => [ m.materia.clave, m.materia.nombre ] ) ),
@@ -186,6 +187,10 @@ function PanelResultados() {
     return <p className="text-slate-500">Configura las restricciones y da click en "Generar horarios" para ver resultados aquí.</p>;
   }
 
+  const totalSeleccionadas = materiasSeleccionadas.size;
+  const incluidasEnResultado = resultado.horarios[0]?.grupos.length ?? 0;
+  const quedaronTodasIncluidas = incluidasEnResultado >= totalSeleccionadas;
+
   return (
     <div className="flex flex-col gap-6">
       <h2 className="text-xl font-bold">Resultados</h2>
@@ -194,6 +199,15 @@ function PanelResultados() {
         <div className="rounded-md border border-amber-700 bg-amber-950 p-4">
           <p className="font-medium">No se encontró ningún horario válido.</p>
           <p className="text-sm text-slate-300">{resultado.explicacionSinResultados}</p>
+        </div>
+      )}
+
+      {resultado.horarios.length > 0 && !quedaronTodasIncluidas && (
+        <div className="rounded-md border border-amber-700 bg-amber-950 p-4">
+          <p className="font-medium">
+            No todas tus materias caben sin choques — se muestra el máximo posible: {incluidasEnResultado} de {totalSeleccionadas}.
+          </p>
+          <p className="text-sm text-slate-300">Cada opción abajo indica cuál(es) quedaron fuera y por qué.</p>
         </div>
       )}
 
@@ -210,6 +224,19 @@ function PanelResultados() {
           </div>
 
           <CuadriculaSemanal grupos={horario.grupos} nombresPorClave={nombresPorClave} />
+
+          {horario.materiasExcluidas.length > 0 && (
+            <ul className="flex flex-col gap-1 rounded-md border border-amber-800 bg-amber-950/50 p-2 text-sm">
+              {horario.materiasExcluidas.map( ( excluida ) => (
+                <li key={excluida.materiaClave}>
+                  <span className="font-medium text-amber-300">
+                    ❌ {nombresPorClave.get( excluida.materiaClave ) ?? excluida.materiaClave}:
+                  </span>{" "}
+                  <span className="text-slate-300">{excluida.motivo}</span>
+                </li>
+              ) )}
+            </ul>
+          )}
 
           {horario.desglose.length > 0 && (
             <ul className="flex flex-wrap gap-3 text-sm">

@@ -329,11 +329,39 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
   confirmado por el usuario contra lo que él veía.
 - **Tiempo invertido:** 30 min
 
+### Scheduler: subconjunto máximo en vez de todo-o-nada, + bug real en profesoresAEvitar
+
+- **Descripción:** `generarHorarios` exigía que TODAS las materias
+  seleccionadas cupieran sin choques — un solo choque entre dos materias
+  tumbaba el 100% de los resultados en vez de ofrecer lo mejor posible.
+  Reescrito con backtracking de inclusión/exclusión + branch-and-bound
+  (poda por cota superior `incluidas + restantes < mejorTamañoGlobal`,
+  semilla inicial validada por un greedy rápido): ahora busca el
+  subconjunto más grande de materias que sí cabe, regresa TODOS los
+  empates de ese tamaño máximo (hasta `maxResultados`), y cada horario
+  resultante trae `materiasExcluidas` con el motivo concreto (choque
+  específico contra qué materia/grupo, o explicación genérica si la
+  exclusión fue una decisión de combinación y no un choque directo).
+  `PlanDeHorario.tsx` ahora muestra ese detalle por opción. De paso,
+  probando con datos reales via curl directo al backend, apareció un bug
+  independiente y preexistente: `profesoresAEvitar` llega del body como
+  arreglo JSON plano pero el scheduler esperaba un `Set` real (`.has()`)
+  — cualquier request real con al menos un profesor a evitar tronaba el
+  endpoint con 500. Corregido en el controller. Verificado con: prueba
+  unitaria sintética (2 pares de materias en conflicto, confirma 4
+  combinaciones empatadas con motivo exacto por exclusión), prueba contra
+  datos reales del dataset (10 materias sin choque, caben las 10), y
+  prueba end-to-end real vía POST /api/horarios forzando un choque real
+  (C16 vs C12) con profesoresAEvitar — confirma 3/4 incluidas, C16
+  excluida con motivo correcto, 28 combinaciones empatadas. `npm run
+  build` limpio en schedule-engine, backend y frontend.
+- **Tiempo invertido:** 1h 10min
+
 ---
 
 ## Tiempo total invertido
 
-**13h 00min**
+**14h 10min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando
