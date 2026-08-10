@@ -1,19 +1,30 @@
 // Author: MiguelAGDev
 // Date: 2026-08-08
 // Description: Lee los .jsonc generados por packages/importer (JSON +
-// comentarios) y los regresa ya tipados. Se cachean en memoria — solo
-// cambian cuando alguien vuelve a correr el importer y reinicia el
-// backend, así que no vale la pena releer disco en cada request.
+// comentarios) y los regresa ya tipados. Se cachean en memoria para no
+// releer disco en cada request.
 
-// Last Update: 2026-08-08
-// Description: Encabezado inicial, sin cambios de contenido.
+// Last Update: 2026-08-09
+// Description: La caché se invalida sola comparando el mtime de los
+// archivos — antes solo se refrescaba reiniciando el proceso, y como
+// `tsx watch` no reinicia por cambios en .jsonc (se leen con
+// readFileSync, no como módulo importado), un edit a mano a los datos
+// nunca se veía reflejado hasta apagar y prender el backend a mano.
+// Con esto, editar un .jsonc en disco se refleja en la siguiente
+// request sin tener que tocar el proceso.
 
-import { readFileSync } from "node:fs";
+import { readFileSync, statSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import type { Carrera, Grupo, Materia, PrerrequisitosMateria, Profesor } from "@mi-reticula/shared-types";
 
 const __dirname = path.dirname( fileURLToPath( import.meta.url ) );
+
+const ARCHIVOS_DATOS = [ "carreras.jsonc", "materias.jsonc", "profesores.jsonc", "grupos.jsonc", "prerrequisitos.jsonc" ];
+
+function mtimeMasReciente(): number {
+  return Math.max( ...ARCHIVOS_DATOS.map( ( nombre ) => statSync( path.join( __dirname, nombre ) ).mtimeMs ) );
+}
 
 export interface DatosAcademicos {
   carreras: Carrera[];
@@ -47,10 +58,13 @@ function leerJsonc<T>( nombreArchivo: string ): T {
 }
 
 let datosCacheados: DatosAcademicos | null = null;
+let mtimeCacheado = -1;
 
 export function cargarDatosAcademicos(): DatosAcademicos {
-  if ( datosCacheados ) return datosCacheados;
+  const mtimeActual = mtimeMasReciente();
+  if ( datosCacheados && mtimeActual === mtimeCacheado ) return datosCacheados;
 
+  mtimeCacheado = mtimeActual;
   datosCacheados = {
     carreras: leerJsonc<Carrera[]>( "carreras.jsonc" ),
     materias: leerJsonc<Materia[]>( "materias.jsonc" ),

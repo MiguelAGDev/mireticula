@@ -300,11 +300,27 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
   A18/C16 correctamente. `npm run build` limpio.
 - **Tiempo invertido:** 25 min
 
+### Caché del backend no se refrescaba con datos editados a mano
+
+- **Descripción:** el fix de créditos no se veía reflejado en la app aunque
+  el archivo en disco ya tenía los valores correctos. Causa: `cargarDatos.ts`
+  cachea los `.jsonc` en memoria al primer request y solo se refresca
+  reiniciando el proceso — y `tsx watch` no reinicia por cambios en esos
+  archivos porque se leen con `readFileSync`, no como módulo importado, así
+  que no entran en su grafo de dependencias. El servidor de la sesión
+  anterior se quedó sirviendo datos viejos (creditos: null) sin que nada lo
+  avisara. `cargarDatosAcademicos()` ahora compara el mtime de los 5
+  `.jsonc` en cada request y sólo relee disco si cambió — se sigue
+  cacheando en el caso normal, pero un edit manual a los datos ya no
+  requiere apagar y prender el backend. `npm run build` limpio, verificado
+  contra el mismo escenario del usuario (semestres I-VI aprobados).
+- **Tiempo invertido:** 20 min
+
 ---
 
 ## Tiempo total invertido
 
-**12h 10min**
+**12h 30min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando
