@@ -316,11 +316,24 @@ Registro del progreso del proyecto: qué se hizo, cuándo y cuánto tiempo tomó
   contra el mismo escenario del usuario (semestres I-VI aprobados).
 - **Tiempo invertido:** 20 min
 
+### Ajustes visuales a /plan: proporción de columnas y alineación de horas
+
+- **Descripción:** columna de restricciones/resultados cambiada de 50/50 a
+  30/70 (`grid-cols-[3fr_7fr]`) — las cuadrículas semanales necesitan más
+  ancho, son el contenido que el usuario realmente compara. Además, la
+  columna de horas de `CuadriculaSemanal` no tenía un espaciador
+  equivalente al encabezado "Lun/Mar/.../Vie" de las columnas de días, así
+  que las etiquetas de hora quedaban corridas hacia arriba respecto a los
+  bloques reales; se agregó un spacer invisible con la misma altura del
+  encabezado. Verificado con capturas (Playwright) antes/después y
+  confirmado por el usuario contra lo que él veía.
+- **Tiempo invertido:** 30 min
+
 ---
 
 ## Tiempo total invertido
 
-**12h 30min**
+**13h 00min**
 
 _Nota sobre el método:_ los tiempos se calculan a partir de marcas de
 tiempo reales (commits de git, fecha de modificación de archivos) cuando

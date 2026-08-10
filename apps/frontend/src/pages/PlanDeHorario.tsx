@@ -7,9 +7,10 @@
 // botón "Generar" dispara POST /api/horarios y actualiza la derecha sin
 // cambiar de URL.
 
-// Last Update: 2026-08-08
-// Description: Encabezado inicial — reemplaza a Restricciones.tsx +
-// Resultados.tsx, que vivían en rutas separadas.
+// Last Update: 2026-08-09
+// Description: Proporción de columnas cambiada de 50/50 a 30/70
+// (restricciones/resultados) — las cuadrículas semanales necesitan más
+// espacio horizontal, es el contenido que el usuario realmente compara.
 
 import { useMemo, useState } from "react";
 import CuadriculaSemanal from "../components/CuadriculaSemanal";
@@ -230,7 +231,7 @@ function PanelResultados() {
 function PlanDeHorario() {
   return (
     <main className="min-h-screen bg-slate-950 px-6 py-12 text-slate-100">
-      <div className="mx-auto grid max-w-6xl grid-cols-2 gap-10">
+      <div className="mx-auto grid max-w-6xl grid-cols-[3fr_7fr] gap-10">
         <PanelRestricciones />
         <PanelResultados />
       </div>

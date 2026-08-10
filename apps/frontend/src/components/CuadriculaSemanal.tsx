@@ -4,8 +4,11 @@
 // sesión se posiciona verticalmente según su hora real. Reutilizable
 // entre resultados — no depende de ninguna pantalla en particular.
 
-// Last Update: 2026-08-08
-// Description: Encabezado inicial, sin cambios de contenido.
+// Last Update: 2026-08-09
+// Description: La columna de horas no tenía un espaciador equivalente al
+// encabezado "Lun/Mar/..." de las columnas de días, así que las
+// etiquetas de hora quedaban corridas hacia arriba respecto a los
+// bloques reales — se agrega un spacer invisible con la misma altura.
 
 import type { Dia, Grupo } from "@mi-reticula/shared-types";
 
@@ -55,16 +58,20 @@ function CuadriculaSemanal( { grupos, nombresPorClave }: CuadriculaSemanalProps 
 
   return (
     <div className="flex text-xs">
-      <div className="relative w-12 shrink-0" style={{ height: alturaTotal }}>
-        {horas.map( ( minutoDelDia ) => (
-          <span
-            key={minutoDelDia}
-            className="absolute right-1 -translate-y-1/2 text-slate-500"
-            style={{ top: ( minutoDelDia - inicioRango ) * PX_POR_MINUTO }}
-          >
-            {String( Math.floor( minutoDelDia / 60 ) ).padStart( 2, "0" )}:00
-          </span>
-        ) )}
+      <div className="w-12 shrink-0">
+        {/* Spacer invisible: misma altura que el encabezado "Lun/Mar/..." de las columnas de días, para que las horas arranquen en el mismo y que los bloques. */}
+        <div className="mb-1 text-center font-semibold invisible">00</div>
+        <div className="relative" style={{ height: alturaTotal }}>
+          {horas.map( ( minutoDelDia ) => (
+            <span
+              key={minutoDelDia}
+              className="absolute right-1 -translate-y-1/2 text-slate-500"
+              style={{ top: ( minutoDelDia - inicioRango ) * PX_POR_MINUTO }}
+            >
+              {String( Math.floor( minutoDelDia / 60 ) ).padStart( 2, "0" )}:00
+            </span>
+          ) )}
+        </div>
       </div>
 
       <div className="grid flex-1 grid-cols-5 gap-1">
